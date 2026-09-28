@@ -8,5 +8,15 @@
     "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/RadioMaster_DBR4_colored.glb",
     "uploadedAt": "2026-09-28T09:25:12.900Z",
     "updatedAt": 1790587512900
+  },
+  {
+    "componentId": "18",
+    "fileName": "Hobbywing_UBEC_25A_50A_short_cables__1_.glb",
+    "format": "glb",
+    "scaleMultiplier": 1,
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/Hobbywing_UBEC_25A_50A_short_cables__1_.glb",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/Hobbywing_UBEC_25A_50A_short_cables__1_.glb",
+    "uploadedAt": "2026-09-28T10:41:44.146Z",
+    "updatedAt": 1790592104146
   }
 ]
