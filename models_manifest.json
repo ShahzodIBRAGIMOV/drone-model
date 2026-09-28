@@ -1,13 +1,13 @@
 [
   {
     "componentId": "20",
-    "fileName": "RadioMaster_DBR4_colored.glb",
+    "fileName": "20_siyi-bec.glb",
     "format": "glb",
     "scaleMultiplier": 1,
-    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/RadioMaster_DBR4_colored.glb",
-    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/RadioMaster_DBR4_colored.glb",
-    "uploadedAt": "2026-09-28T09:25:12.900Z",
-    "updatedAt": 1790587512900
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/20_siyi-bec.glb",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/20_siyi-bec.glb",
+    "uploadedAt": "2026-09-28T10:52:44.102Z",
+    "updatedAt": 1790592764102
   },
   {
     "componentId": "18",
