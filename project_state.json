@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T23:16:52.311Z",
-  "timestamp": 1790723812311,
+  "updatedAt": "2026-09-29T23:32:27.645Z",
+  "timestamp": 1790724747645,
   "instances": [
     {
       "instanceId": "01-1",
@@ -11,7 +11,7 @@
       "name": "Drone airframe",
       "customLabel": "Dron korpusi (Airframe 3500mm)",
       "isAirframe": true,
-      "placed": false,
+      "placed": true,
       "locked": false,
       "visible": true,
       "position": [
@@ -186,6 +186,20 @@
           "connectorId": "port",
           "label": "AUX 2 S",
           "pinId": "pin_11"
+        },
+        {
+          "pinId": "pin_10",
+          "connectorId": "port",
+          "fullName": "02-1.pin_10",
+          "label": "TELEM 1",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            -31,
+            -28.5,
+            0.3
+          ],
+          "verified": true
         }
       ],
       "attachedToDrone": true,
@@ -310,6 +324,20 @@
           ],
           "pinId": "pin_2",
           "voltage": "3.3V"
+        },
+        {
+          "pinId": "pin_3",
+          "connectorId": "port",
+          "fullName": "04-1.pin_3",
+          "label": "PC",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            3,
+            -24.5,
+            6.9
+          ],
+          "verified": true
         }
       ]
     },
@@ -1722,7 +1750,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "17-1",
@@ -1946,7 +1974,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "18-2",
@@ -1974,7 +2002,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "19-1",
@@ -2143,7 +2171,7 @@
           ]
         }
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "21-1",
@@ -2236,7 +2264,7 @@
         0,
         0
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "23-1",
@@ -2336,7 +2364,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "24-1",
@@ -2433,7 +2461,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "25-1",
@@ -2519,7 +2547,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "26-1",
@@ -2547,7 +2575,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "27-1",
@@ -2575,7 +2603,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790723462756
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "21-2",
@@ -2817,7 +2845,7 @@
       "endStickers": {
         "enabled": false
       },
-      "calculatedLengthMm": 1376,
+      "calculatedLengthMm": 1380,
       "sourcePinName": "12-3.pin_1",
       "cableType": "PWM",
       "name": "O‘ng qanot eleron 1 (Right Aileron) [pin_1] → Servo quvvatlash UBEC 12A [pin_4]",
@@ -2841,13 +2869,6 @@
           "x": 118.2,
           "z": 262.3,
           "y": 303.9,
-          "type": "waypoint"
-        },
-        {
-          "id": "wp_1790716109327_tr1l",
-          "x": 40,
-          "y": 254.1,
-          "z": 157.2,
           "type": "waypoint"
         }
       ]
@@ -3274,7 +3295,7 @@
         "GND (Massa)"
       ],
       "thicknessMm": 1,
-      "calculatedLengthMm": 230,
+      "calculatedLengthMm": 238,
       "strandPitchMm": 1.2,
       "strandColors": [
         "#ef4444",
@@ -3295,11 +3316,18 @@
           "x": -48.3
         },
         {
-          "x": -1,
+          "x": -49.6,
           "id": "pt_1788595996696_slju",
           "type": "waypoint",
           "z": 700.9,
           "y": 218.9
+        },
+        {
+          "id": "wp_1790724242646_zu1f",
+          "x": -46.4,
+          "y": 235.9,
+          "z": 693,
+          "type": "waypoint"
         }
       ],
       "id": "cable_1788595959021_1uwrrq",
@@ -3608,8 +3636,8 @@
         {
           "id": "pt_1790594309224_xxbu",
           "x": -47,
-          "y": 35.7,
-          "z": 803.4,
+          "y": 41.3,
+          "z": 781.4,
           "type": "waypoint"
         },
         {
@@ -3630,7 +3658,7 @@
       "flowDirection": "bidirectional",
       "name": "MK32 HM30 Air Unit #1 [pin_2] → GigaBlox switch #1 [pin_3]",
       "strandPitchMm": 2,
-      "calculatedLengthMm": 268,
+      "calculatedLengthMm": 272,
       "color": "#b8b8b8",
       "tubeInnerColor": "#38bdf8",
       "sourcePinName": "04-1.pin_2",
@@ -4482,71 +4510,6 @@
       "name": "Chap motor regulyatori (ESC 1) [pin_5] → Emergency Stop #1 [pin_2]"
     },
     {
-      "isRibbon": false,
-      "breakoutType": "1-to-N",
-      "strandLabels": [
-        "POWER -"
-      ],
-      "isTransparent": false,
-      "sourceInstanceId": "11-1",
-      "color": "#000000",
-      "strandPitchMm": 2,
-      "breakoutMode": "1-to-N",
-      "isBreakout": false,
-      "flowDirection": "reverse",
-      "targetPinName": "08-1.pin_1",
-      "curveTension": 0.5,
-      "transparencyOpacity": 0.45,
-      "isTubing": false,
-      "endStickers": {
-        "enabled": false
-      },
-      "thicknessMm": 3,
-      "strandCount": 1,
-      "tubeInnerColor": "#38bdf8",
-      "slackMm": 0,
-      "strandColors": [
-        "#000000"
-      ],
-      "targetInstanceId": "08-1",
-      "wireGauge": "16 AWG",
-      "routePoints": [
-        {
-          "y": 286.1,
-          "z": 222.4,
-          "id": "pt_1788634887439_7361",
-          "x": -515.1,
-          "type": "waypoint"
-        },
-        {
-          "id": "pt_1790595911011_gsjg",
-          "x": -480.5,
-          "y": 281.2,
-          "z": 220.6,
-          "type": "waypoint"
-        },
-        {
-          "z": 335,
-          "y": 276.1,
-          "id": "pt_1788635091862_ncx1",
-          "type": "waypoint",
-          "x": -238.3
-        },
-        {
-          "x": 66.2,
-          "id": "pt_1788634869797_lxft",
-          "z": 460.6,
-          "y": 229,
-          "type": "waypoint"
-        }
-      ],
-      "cableType": "Power",
-      "sourcePinName": "11-1.pin_4",
-      "calculatedLengthMm": 717,
-      "name": "Chap motor regulyatori (ESC 1) [pin_4] → TATTU 22000 mAh battery #1 [pin_1]",
-      "id": "cable_1788634834478_9lgfd3"
-    },
-    {
       "name": "GigaBlox switch #1 [pin_6] → Matek BEC12S PRO #1 [pin_1]",
       "sourceInstanceId": "24-1",
       "sourcePinName": "24-1.pin_6",
@@ -4598,48 +4561,6 @@
         }
       ],
       "calculatedLengthMm": 195
-    },
-    {
-      "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
-      "sourceInstanceId": "11-1",
-      "sourcePinName": "11-1.pin_1",
-      "targetInstanceId": "02-1",
-      "targetPinName": "02-1.pin_11",
-      "isBreakout": true,
-      "breakoutType": "1-to-N",
-      "breakoutMode": "1-to-N",
-      "multiTargetPinNames": [
-        "02-1.pin_11",
-        "02-1.pin_9"
-      ],
-      "flowDirection": "smart",
-      "color": "#f59e0b",
-      "cableType": "PWM",
-      "wireGauge": "22 AWG",
-      "isRibbon": true,
-      "strandCount": 2,
-      "strandPitchMm": 2,
-      "strandColors": [
-        "#f59e0b",
-        "#000000"
-      ],
-      "strandLabels": [
-        "Signal (PWM)",
-        "GND"
-      ],
-      "isTransparent": false,
-      "transparencyOpacity": 0.45,
-      "isTubing": false,
-      "tubeInnerColor": "#38bdf8",
-      "endStickers": {
-        "enabled": false
-      },
-      "id": "cable_1790596471173_9eospq",
-      "slackMm": 0,
-      "curveTension": 0.5,
-      "thicknessMm": 3,
-      "routePoints": [],
-      "calculatedLengthMm": 697
     },
     {
       "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
@@ -4718,20 +4639,84 @@
         }
       ],
       "calculatedLengthMm": 890
+    },
+    {
+      "name": "MK32 HM30 Air Unit #1 [pin_3] → CUBE Orange ADS-B #1 [pin_10]",
+      "sourceInstanceId": "04-1",
+      "sourcePinName": "04-1.pin_3",
+      "targetInstanceId": "02-1",
+      "targetPinName": "02-1.pin_10",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "bidirectional",
+      "color": "#ef4444",
+      "cableType": "UART",
+      "wireGauge": "26 AWG",
+      "isRibbon": true,
+      "strandCount": 4,
+      "strandPitchMm": 1.2,
+      "strandColors": [
+        "#ef4444",
+        "#10b981",
+        "#f8fafc",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "VCC (+5V / Quvvat)",
+        "TXD (Uzatish)",
+        "RXD (Qabul)",
+        "GND (Massa)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790724600262_70lomx",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 2,
+      "routePoints": [
+        {
+          "id": "wp_1790724608566_83pt",
+          "x": -42.9,
+          "y": 18,
+          "z": 791.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790724624295_1jh3",
+          "x": -72.7,
+          "y": 165.8,
+          "z": 813.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790724639781_uzje",
+          "x": -40.9,
+          "y": 161.3,
+          "z": 820.7,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 219
     }
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.05,
+    "opacity": 0.15,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.05,
+  "droneOpacity": 0.15,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "front",
+  "cameraViewMode": "left",
   "customModels": {
     "16": {
       "componentId": "16",
