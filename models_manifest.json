@@ -41,13 +41,13 @@
   },
   {
     "componentId": "16",
-    "fileName": "battery_switch_200A.glb",
+    "fileName": "battery_switch_200A__1_.glb",
     "format": "glb",
     "scaleMultiplier": 1,
-    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/battery_switch_200A.glb",
-    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/battery_switch_200A.glb",
-    "uploadedAt": "2026-09-29T20:16:32.212Z",
-    "updatedAt": 1790712992212
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/battery_switch_200A__1_.glb",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/battery_switch_200A__1_.glb",
+    "uploadedAt": "2026-09-29T20:19:29.894Z",
+    "updatedAt": 1790713169894
   },
   {
     "componentId": "25",
