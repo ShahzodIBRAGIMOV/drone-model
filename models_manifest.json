@@ -38,5 +38,15 @@
     "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
     "uploadedAt": "2026-09-29T16:52:09.919Z",
     "updatedAt": 1790700729919
+  },
+  {
+    "componentId": "16",
+    "fileName": "Emergency_Stop_Button_-_Assy.STEP",
+    "format": "step",
+    "scaleMultiplier": 1,
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/Emergency_Stop_Button_-_Assy.STEP",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/Emergency_Stop_Button_-_Assy.STEP",
+    "uploadedAt": "2026-09-29T16:57:58.072Z",
+    "updatedAt": 1790701078072
   }
 ]
