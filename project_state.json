@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T21:08:12.886Z",
-  "timestamp": 1790716092886,
+  "updatedAt": "2026-09-29T23:16:52.311Z",
+  "timestamp": 1790723812311,
   "instances": [
     {
       "instanceId": "01-1",
@@ -1721,7 +1721,8 @@
           ],
           "verified": true
         }
-      ]
+      ],
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "17-1",
@@ -1945,7 +1946,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "18-2",
@@ -1973,7 +1974,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "19-1",
@@ -2142,7 +2143,7 @@
           ]
         }
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "21-1",
@@ -2235,7 +2236,7 @@
         0,
         0
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "23-1",
@@ -2335,7 +2336,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "24-1",
@@ -2432,7 +2433,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "25-1",
@@ -2518,7 +2519,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "26-1",
@@ -2546,7 +2547,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "27-1",
@@ -2574,7 +2575,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790714173892
+      "modelVersion": 1790723462756
     },
     {
       "instanceId": "21-2",
@@ -2816,7 +2817,7 @@
       "endStickers": {
         "enabled": false
       },
-      "calculatedLengthMm": 1380,
+      "calculatedLengthMm": 1376,
       "sourcePinName": "12-3.pin_1",
       "cableType": "PWM",
       "name": "O‘ng qanot eleron 1 (Right Aileron) [pin_1] → Servo quvvatlash UBEC 12A [pin_4]",
@@ -2840,6 +2841,13 @@
           "x": 118.2,
           "z": 262.3,
           "y": 303.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790716109327_tr1l",
+          "x": 40,
+          "y": 254.1,
+          "z": 157.2,
           "type": "waypoint"
         }
       ]
