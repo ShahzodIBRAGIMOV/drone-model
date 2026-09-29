@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T19:59:00.048Z",
-  "timestamp": 1790711940048,
+  "updatedAt": "2026-09-29T20:04:53.873Z",
+  "timestamp": 1790712293873,
   "instances": [
     {
       "instanceId": "01-1",
@@ -2386,9 +2386,9 @@
           "pinId": "pin_1",
           "verified": true,
           "localOffset": [
-            16.3,
-            1.4,
-            -13.4
+            31.3,
+            0,
+            21.9
           ],
           "type": "signal",
           "connectorId": "port",
@@ -2397,9 +2397,9 @@
         {
           "fullName": "24-1.pin_2",
           "localOffset": [
-            15.4,
-            3.8,
-            -6.2
+            0.1,
+            -0.5,
+            24.9
           ],
           "verified": true,
           "type": "signal",
@@ -2414,9 +2414,9 @@
           "fullName": "24-1.pin_3",
           "connectorId": "port",
           "localOffset": [
-            15.7,
-            1.4,
-            1
+            16.1,
+            -0.5,
+            23.9
           ],
           "pinId": "pin_3",
           "type": "signal",
@@ -2458,9 +2458,9 @@
           "connectorId": "port",
           "verified": true,
           "localOffset": [
-            -20.6,
-            1.4,
-            12.7
+            -29.5,
+            -0.3,
+            -31.9
           ],
           "voltage": "3.3V"
         }
@@ -3537,7 +3537,7 @@
       "id": "cable_1788608745515_evbwqe",
       "targetInstanceId": "24-1",
       "thicknessMm": 3,
-      "calculatedLengthMm": 203,
+      "calculatedLengthMm": 205,
       "strandCount": 1,
       "transparencyOpacity": 0.45,
       "isTransparent": false,
@@ -3554,13 +3554,13 @@
           "y": 104.1,
           "id": "pt_1788608798434_elvl",
           "type": "waypoint",
-          "x": 27.2
+          "x": 51.5
         },
         {
           "z": 934.2,
-          "y": 111,
+          "y": 92.4,
           "id": "pt_1788608839098_n3ny",
-          "x": 22.4,
+          "x": 52.8,
           "type": "waypoint"
         }
       ],
@@ -3581,15 +3581,15 @@
       "routePoints": [
         {
           "id": "pt_1788608948353_fyur",
-          "x": 15,
-          "z": 918.6,
+          "x": 58.2,
+          "z": 899.1,
           "y": 101.9,
           "type": "waypoint"
         },
         {
           "z": 874.5,
           "y": 101.8,
-          "x": 13.3,
+          "x": 56.6,
           "type": "waypoint",
           "id": "pt_1788608904506_ezwe"
         },
@@ -3614,7 +3614,7 @@
       "targetInstanceId": "19-1",
       "id": "cable_1788608885470_oueq9l",
       "tubeInnerColor": "#38bdf8",
-      "calculatedLengthMm": 150,
+      "calculatedLengthMm": 169,
       "sourceInstanceId": "24-1",
       "name": "undefined [pin_1] → Jetson carrier assembly #1 [pin_1]",
       "isTransparent": false,
@@ -3646,14 +3646,14 @@
           "id": "pt_1790594309224_xxbu",
           "x": -47,
           "y": 35.7,
-          "z": 784,
+          "z": 803.4,
           "type": "waypoint"
         },
         {
-          "x": -1.5,
+          "x": 67.2,
           "z": 921,
           "id": "pt_1788609519996_5y7z",
-          "y": 105.6,
+          "y": 85.7,
           "type": "waypoint"
         }
       ],
@@ -3667,7 +3667,7 @@
       "flowDirection": "bidirectional",
       "name": "MK32 HM30 Air Unit #1 [pin_2] → GigaBlox switch #1 [pin_3]",
       "strandPitchMm": 2,
-      "calculatedLengthMm": 216,
+      "calculatedLengthMm": 268,
       "color": "#b8b8b8",
       "tubeInnerColor": "#38bdf8",
       "sourcePinName": "04-1.pin_2",
@@ -4667,20 +4667,20 @@
       "routePoints": [
         {
           "id": "pt_1788688361630_hg1h",
-          "x": -23.2,
-          "y": 98.9,
-          "z": 940.7,
+          "x": -61.3,
+          "y": 94.4,
+          "z": 960.2,
           "type": "waypoint"
         },
         {
           "id": "pt_1790587741437_1x7v",
-          "x": -23.5,
-          "y": 86.6,
-          "z": 843.8,
+          "x": -61.7,
+          "y": 98.9,
+          "z": 925.5,
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 179
+      "calculatedLengthMm": 195
     },
     {
       "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
@@ -4814,7 +4814,7 @@
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "perspective",
+  "cameraViewMode": "right",
   "customModels": {
     "16": {
       "componentId": "16",
