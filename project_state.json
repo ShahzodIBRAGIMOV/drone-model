@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
+  "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T03:06:56.164Z",
-  "timestamp": 1790651216164,
+  "updatedAt": "2026-09-29T03:11:39.209Z",
+  "timestamp": 1790651499209,
   "instances": [
     {
       "instanceId": "01-1",
@@ -4677,6 +4677,12 @@
       "calculatedLengthMm": 151
     }
   ],
+  "droneFrame": {
+    "color": "#475569",
+    "opacity": 0.05,
+    "wireframe": false,
+    "visible": true
+  },
   "droneColor": "#475569",
   "droneOpacity": 0.05,
   "droneWireframe": false,
@@ -4684,6 +4690,16 @@
   "sceneTheme": "light",
   "cameraViewMode": "perspective",
   "customModels": {
+    "16": {
+      "componentId": "16",
+      "assetKey": "custom_16",
+      "sourceType": "file",
+      "format": "step",
+      "scaleMultiplier": 1,
+      "fileName": "Emergency_Stop_Button_-_Assy.step",
+      "fileUrl": "/models/custom/Emergency_Stop_Button_-_Assy.step",
+      "updatedAt": 1790579844214
+    },
     "18": {
       "componentId": "18",
       "assetKey": "custom_18",
