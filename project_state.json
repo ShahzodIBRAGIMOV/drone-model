@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T20:19:47.219Z",
-  "timestamp": 1790713187219,
+  "updatedAt": "2026-09-29T20:24:45.351Z",
+  "timestamp": 1790713485351,
   "instances": [
     {
       "instanceId": "01-1",
@@ -11,7 +11,7 @@
       "name": "Drone airframe",
       "customLabel": "Dron korpusi (Airframe 3500mm)",
       "isAirframe": true,
-      "placed": true,
+      "placed": false,
       "locked": false,
       "visible": true,
       "position": [
@@ -1692,9 +1692,9 @@
         -228.5
       ],
       "rotation": [
-        -6.1,
-        -2.2,
-        -0.2
+        85.6,
+        0,
+        -179.2
       ],
       "scale": [
         1,
@@ -1707,13 +1707,13 @@
         {
           "connectorId": "port",
           "pinId": "pin_1",
-          "label": "Pin #1 [14, -35, 5]",
+          "label": "IN +",
           "fullName": "16-1.pin_1",
           "voltage": "3.3V",
           "localOffset": [
-            14.3,
-            -35.2,
-            5.3
+            9.9,
+            -3.3,
+            45.3
           ],
           "type": "signal",
           "verified": true
@@ -1722,15 +1722,29 @@
           "connectorId": "port",
           "pinId": "pin_2",
           "voltage": "3.3V",
-          "label": "Pin #2 [-14, -35, 4]",
+          "label": "IN +",
           "type": "signal",
           "fullName": "16-1.pin_2",
           "verified": true,
           "localOffset": [
-            -14.4,
-            -35.2,
-            4
+            -8.4,
+            -4.1,
+            45.6
           ]
+        },
+        {
+          "pinId": "pin_3",
+          "connectorId": "port",
+          "fullName": "16-1.pin_3",
+          "label": "GND",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            -0.1,
+            15,
+            45.9
+          ],
+          "verified": true
         }
       ],
       "modelVersion": 1790713170879
@@ -4077,7 +4091,7 @@
       "wireGauge": "16 AWG",
       "isBreakout": false,
       "cableType": "Power",
-      "calculatedLengthMm": 731
+      "calculatedLengthMm": 736
     },
     {
       "color": "#000000",
@@ -4307,7 +4321,7 @@
       "strandPitchMm": 2,
       "sourcePinName": "11-2.pin_5",
       "curveTension": 0.5,
-      "calculatedLengthMm": 760,
+      "calculatedLengthMm": 740,
       "breakoutMode": "1-to-N",
       "sourceInstanceId": "11-2",
       "isRibbon": false,
@@ -4323,50 +4337,6 @@
         "POWER +"
       ],
       "breakoutType": "1-to-N"
-    },
-    {
-      "wireGauge": "16 AWG",
-      "endStickers": {
-        "enabled": false
-      },
-      "strandColors": [
-        "#000000"
-      ],
-      "isTransparent": false,
-      "transparencyOpacity": 0.45,
-      "cableType": "Power",
-      "thicknessMm": 3,
-      "strandPitchMm": 2,
-      "flowDirection": "smart",
-      "targetPinName": "11-2.pin_6",
-      "slackMm": 0,
-      "id": "cable_1788634339053_g11fsg",
-      "calculatedLengthMm": 526,
-      "sourceInstanceId": "08-1",
-      "color": "#000000",
-      "breakoutType": "1-to-N",
-      "isTubing": false,
-      "strandLabels": [
-        "GND"
-      ],
-      "targetInstanceId": "11-2",
-      "name": "TATTU 22000 mAh battery #1 [pin_1] → O‘ng motor regulyatori (ESC 2) [pin_6]",
-      "sourcePinName": "08-1.pin_1",
-      "isBreakout": false,
-      "strandCount": 1,
-      "tubeInnerColor": "#38bdf8",
-      "breakoutMode": "1-to-N",
-      "isRibbon": false,
-      "routePoints": [
-        {
-          "x": 131.1,
-          "type": "waypoint",
-          "id": "pt_1788634375678_6t57",
-          "z": 414.9,
-          "y": 265.3
-        }
-      ],
-      "curveTension": 0.5
     },
     {
       "isTubing": false,
@@ -4524,7 +4494,7 @@
       "isRibbon": false,
       "thicknessMm": 3,
       "sourcePinName": "11-1.pin_5",
-      "calculatedLengthMm": 722,
+      "calculatedLengthMm": 732,
       "isBreakout": false,
       "isTubing": false,
       "strandColors": [
@@ -4775,16 +4745,16 @@
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.05,
+    "opacity": 0.5,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.05,
+  "droneOpacity": 0.5,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "right",
+  "cameraViewMode": "perspective",
   "customModels": {
     "16": {
       "componentId": "16",
