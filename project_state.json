@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T23:32:27.645Z",
-  "timestamp": 1790724747645,
+  "updatedAt": "2026-09-29T23:37:00.183Z",
+  "timestamp": 1790725020183,
   "instances": [
     {
       "instanceId": "01-1",
@@ -1750,7 +1750,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "17-1",
@@ -1974,7 +1974,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "18-2",
@@ -2002,7 +2002,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "19-1",
@@ -2171,7 +2171,7 @@
           ]
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "21-1",
@@ -2264,7 +2264,7 @@
         0,
         0
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "23-1",
@@ -2364,7 +2364,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "24-1",
@@ -2461,7 +2461,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "25-1",
@@ -2547,7 +2547,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "26-1",
@@ -2575,7 +2575,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "27-1",
@@ -2603,7 +2603,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790724872768
     },
     {
       "instanceId": "21-2",
@@ -2739,23 +2739,23 @@
       "thicknessMm": 3,
       "id": "cable_1788524645192_gdz2js",
       "sourceInstanceId": "18-1",
-      "color": "#f59e0b",
+      "color": "#ef4444",
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "endStickers": {
         "enabled": false
       },
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
       "sourcePinName": "18-1.pin_1",
       "slackMm": 0,
       "calculatedLengthMm": 905,
       "targetPinName": "12-2.pin_1",
-      "wireGauge": "22 AWG",
+      "wireGauge": "16 AWG",
       "targetInstanceId": "12-2",
       "flowDirection": "forward",
       "curveTension": 0.5,
@@ -2778,17 +2778,17 @@
       "strandPitchMm": 1.6,
       "name": "Servo quvvatlash UBEC 12A [pin_1] → Chap qanot flap 2 (Left Flap) [pin_1]",
       "isRibbon": true,
-      "cableType": "PWM",
+      "cableType": "Power",
       "strandCount": 2
     },
     {
       "strandPitchMm": 2,
       "isRibbon": true,
       "targetPinName": "18-1.pin_3",
-      "cableType": "PWM",
+      "cableType": "Power",
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
       "flowDirection": "reverse",
       "id": "cable_1788526114769_yswzts",
@@ -2796,11 +2796,11 @@
       "endStickers": {
         "enabled": false
       },
-      "color": "#f59e0b",
-      "wireGauge": "22 AWG",
+      "color": "#ef4444",
+      "wireGauge": "16 AWG",
       "sourceInstanceId": "12-4",
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "thicknessMm": 3,
@@ -2830,14 +2830,14 @@
     {
       "sourceInstanceId": "12-3",
       "isRibbon": true,
-      "wireGauge": "22 AWG",
-      "color": "#f59e0b",
+      "wireGauge": "16 AWG",
+      "color": "#ef4444",
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "thicknessMm": 3,
@@ -2847,7 +2847,7 @@
       },
       "calculatedLengthMm": 1380,
       "sourcePinName": "12-3.pin_1",
-      "cableType": "PWM",
+      "cableType": "Power",
       "name": "O‘ng qanot eleron 1 (Right Aileron) [pin_1] → Servo quvvatlash UBEC 12A [pin_4]",
       "strandPitchMm": 2,
       "targetInstanceId": "18-1",
@@ -2874,7 +2874,7 @@
       ]
     },
     {
-      "wireGauge": "22 AWG",
+      "wireGauge": "16 AWG",
       "thicknessMm": 3,
       "curveTension": 0.5,
       "endStickers": {
@@ -2885,11 +2885,11 @@
       "strandPitchMm": 2,
       "sourceInstanceId": "18-1",
       "id": "cable_1788527065883_p6evhz",
-      "cableType": "PWM",
-      "color": "#f59e0b",
+      "cableType": "Power",
+      "color": "#ef4444",
       "isRibbon": true,
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "sourcePinName": "18-1.pin_2",
@@ -2914,8 +2914,8 @@
       "slackMm": 0,
       "targetInstanceId": "12-1",
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
       "strandCount": 2
     },
@@ -2930,19 +2930,19 @@
         "enabled": false
       },
       "targetPinName": "12-6.pin_1",
-      "color": "#f59e0b",
+      "color": "#ef4444",
       "strandPitchMm": 2,
       "thicknessMm": 3,
       "targetInstanceId": "12-6",
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "sourcePinName": "18-1.pin_6",
       "name": "Servo quvvatlash UBEC 12A [pin_6] → Vertikal fin ruder (Vertical Fin) [pin_1]",
       "strandCount": 2,
-      "wireGauge": "22 AWG",
-      "cableType": "PWM",
+      "wireGauge": "16 AWG",
+      "cableType": "Power",
       "routePoints": [
         {
           "y": 159.2,
@@ -2968,29 +2968,29 @@
       ],
       "isRibbon": true,
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ]
     },
     {
       "sourcePinName": "12-8.pin_1",
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
-      "wireGauge": "22 AWG",
+      "wireGauge": "16 AWG",
       "calculatedLengthMm": 1208,
       "thicknessMm": 3,
-      "cableType": "PWM",
+      "cableType": "Power",
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
       "targetInstanceId": "18-1",
       "endStickers": {
         "enabled": false
       },
-      "color": "#f59e0b",
+      "color": "#ef4444",
       "isRibbon": true,
       "slackMm": 0,
       "strandCount": 2,
@@ -3035,10 +3035,10 @@
     {
       "targetPinName": "12-7.pin_1",
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
-      "color": "#f59e0b",
+      "color": "#ef4444",
       "flowDirection": "forward",
       "strandPitchMm": 2,
       "targetInstanceId": "12-7",
@@ -3049,10 +3049,10 @@
         "enabled": false
       },
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
-      "wireGauge": "22 AWG",
+      "wireGauge": "16 AWG",
       "id": "cable_1788528825897_j9buh8",
       "curveTension": 0.5,
       "strandCount": 2,
@@ -3060,7 +3060,7 @@
       "slackMm": 0,
       "sourcePinName": "18-1.pin_7",
       "name": "Chap dum qanotchasi elevon (Left Elevator) [pin_1] → Servo quvvatlash UBEC 12A [pin_7]",
-      "cableType": "PWM",
+      "cableType": "Power",
       "routePoints": [
         {
           "type": "waypoint",
