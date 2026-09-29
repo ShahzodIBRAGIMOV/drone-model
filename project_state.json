@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T20:58:30.933Z",
-  "timestamp": 1790715510933,
+  "updatedAt": "2026-09-29T21:08:12.886Z",
+  "timestamp": 1790716092886,
   "instances": [
     {
       "instanceId": "01-1",
@@ -1809,11 +1809,11 @@
       "customPins": [
         {
           "type": "signal",
-          "label": "Pin 3",
+          "label": "Pin #1 [-43, -3, 7]",
           "localOffset": [
-            -34.5,
-            -10.4,
-            7.1
+            -43.1,
+            -3.1,
+            7.2
           ],
           "pinId": "pin_1",
           "fullName": "18-1.pin_1",
@@ -1822,31 +1822,45 @@
           "verified": true
         },
         {
+          "verified": true,
+          "voltage": "3.3V",
+          "pinId": "pin_2",
+          "label": "Pin #2 [-43, -7, 7]",
+          "connectorId": "port",
+          "fullName": "18-1.pin_2",
+          "localOffset": [
+            -43.1,
+            -7,
+            7.2
+          ],
+          "type": "signal"
+        },
+        {
           "fullName": "18-1.pin_3",
-          "label": "Pin 7",
+          "label": "Pin #3 [-44, 12, 7]",
           "verified": true,
           "connectorId": "port",
           "pinId": "pin_3",
           "localOffset": [
-            -34.4,
-            -1.7,
-            7.1
+            -43.6,
+            12.4,
+            7.2
           ],
           "voltage": "3.3V",
           "type": "signal"
         },
         {
           "localOffset": [
-            -34.5,
-            -3.8,
-            7.1
+            -43.6,
+            8.5,
+            7.2
           ],
           "voltage": "3.3V",
           "fullName": "18-1.pin_4",
           "connectorId": "port",
           "type": "signal",
           "pinId": "pin_4",
-          "label": "Pin 6",
+          "label": "Pin #4 [-44, 9, 7]",
           "verified": true
         },
         {
@@ -1857,35 +1871,35 @@
           "type": "signal",
           "pinId": "pin_5",
           "localOffset": [
-            -34.4,
-            -6,
-            7.1
+            -43.3,
+            4.8,
+            7.2
           ],
-          "label": "Pin 5"
+          "label": "Pin #5 [-43, 5, 7]"
         },
         {
           "connectorId": "port",
           "fullName": "18-1.pin_6",
           "verified": true,
           "pinId": "pin_6",
-          "label": "Pin 4",
+          "label": "Pin #6 [-43, 1, 7]",
           "type": "signal",
           "voltage": "3.3V",
           "localOffset": [
-            -34.1,
-            -8.2,
-            7.1
+            -43.4,
+            0.9,
+            7.2
           ]
         },
         {
           "localOffset": [
-            -34.5,
-            -12.4,
-            7.1
+            -43.5,
+            -10.3,
+            7.2
           ],
           "type": "signal",
           "fullName": "18-1.pin_7",
-          "label": "Pin 2",
+          "label": "Pin #7 [-43, -10, 7]",
           "pinId": "pin_7",
           "verified": true,
           "connectorId": "port",
@@ -1893,59 +1907,31 @@
         },
         {
           "connectorId": "port",
-          "label": "Pin 1",
+          "label": "Pin #8 [-43, -14, 7]",
           "pinId": "pin_8",
           "voltage": "3.3V",
           "type": "signal",
           "verified": true,
           "fullName": "18-1.pin_8",
           "localOffset": [
-            -34.5,
-            -15,
-            7.1
+            -43.3,
+            -14.2,
+            7.2
           ]
         },
         {
-          "pinId": "pin_11",
           "connectorId": "port",
-          "fullName": "18-1.pin_11",
-          "label": "Pin 8",
-          "type": "signal",
           "voltage": "3.3V",
-          "localOffset": [
-            38,
-            -9.6,
-            1.3
-          ],
-          "verified": true
-        },
-        {
+          "type": "signal",
+          "verified": true,
+          "label": "Pin #9 [45, -13, -3]",
           "pinId": "pin_9",
-          "connectorId": "port",
-          "fullName": "18-1.pin_9",
-          "label": "Power GND",
-          "type": "signal",
-          "voltage": "3.3V",
           "localOffset": [
-            37.8,
-            -5.5,
-            1.4
+            45,
+            -12.6,
+            -2.7
           ],
-          "verified": true
-        },
-        {
-          "pinId": "pin_11",
-          "connectorId": "port",
-          "fullName": "18-1.pin_11",
-          "label": "Pin #11 [-34, 1, 7]",
-          "type": "signal",
-          "voltage": "3.3V",
-          "localOffset": [
-            -34.3,
-            0.6,
-            7.1
-          ],
-          "verified": true
+          "fullName": "18-1.pin_9"
         }
       ],
       "attachedToDrone": true,
@@ -1959,7 +1945,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790713522058
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "18-2",
@@ -1987,7 +1973,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790713522058
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "19-1",
@@ -2156,7 +2142,7 @@
           ]
         }
       ],
-      "modelVersion": 1790713522058
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "21-1",
@@ -2249,7 +2235,7 @@
         0,
         0
       ],
-      "modelVersion": 1790713522058
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "23-1",
@@ -2349,7 +2335,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790713519458
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "24-1",
@@ -2446,7 +2432,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790713519458
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "25-1",
@@ -2532,7 +2518,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790713519458
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "26-1",
@@ -2560,7 +2546,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790713519458
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "27-1",
@@ -2588,7 +2574,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790713519458
+      "modelVersion": 1790714173892
     },
     {
       "instanceId": "21-2",
@@ -2624,8 +2610,7 @@
         0,
         -91.7
       ],
-      "weightG": 18,
-      "modelVersion": 1790710075559
+      "weightG": 18
     }
   ],
   "cables": [
@@ -2739,7 +2724,7 @@
       ],
       "sourcePinName": "18-1.pin_1",
       "slackMm": 0,
-      "calculatedLengthMm": 896,
+      "calculatedLengthMm": 905,
       "targetPinName": "12-2.pin_1",
       "wireGauge": "22 AWG",
       "targetInstanceId": "12-2",
@@ -2791,7 +2776,7 @@
       ],
       "thicknessMm": 3,
       "strandCount": 2,
-      "calculatedLengthMm": 916,
+      "calculatedLengthMm": 920,
       "targetInstanceId": "18-1",
       "name": "O‘ng qanot flap 2 (Right Flap) [pin_1] → Servo quvvatlash UBEC 12A [pin_3]",
       "routePoints": [
@@ -2831,7 +2816,7 @@
       "endStickers": {
         "enabled": false
       },
-      "calculatedLengthMm": 1377,
+      "calculatedLengthMm": 1380,
       "sourcePinName": "12-3.pin_1",
       "cableType": "PWM",
       "name": "O‘ng qanot eleron 1 (Right Aileron) [pin_1] → Servo quvvatlash UBEC 12A [pin_4]",
@@ -2860,9 +2845,55 @@
       ]
     },
     {
+      "wireGauge": "22 AWG",
+      "thicknessMm": 3,
+      "curveTension": 0.5,
+      "endStickers": {
+        "enabled": false
+      },
+      "targetPinName": "12-1.pin_1",
+      "flowDirection": "forward",
+      "strandPitchMm": 2,
+      "sourceInstanceId": "18-1",
+      "id": "cable_1788527065883_p6evhz",
+      "cableType": "PWM",
+      "color": "#f59e0b",
+      "isRibbon": true,
+      "strandColors": [
+        "#f59e0b",
+        "#1e293b"
+      ],
+      "sourcePinName": "18-1.pin_2",
+      "name": "Servo quvvatlash UBEC 12A [pin_2] → Chap qanot eleron 1 (Left Aileron) [pin_1]",
+      "routePoints": [
+        {
+          "y": 279.1,
+          "id": "pt_1788527120675_3b92",
+          "z": 277.2,
+          "x": -119.7,
+          "type": "waypoint"
+        },
+        {
+          "y": 326.1,
+          "z": 346,
+          "type": "waypoint",
+          "x": -1011.6,
+          "id": "pt_1788527142605_ol82"
+        }
+      ],
+      "calculatedLengthMm": 1366,
+      "slackMm": 0,
+      "targetInstanceId": "12-1",
+      "strandLabels": [
+        "Signal (PWM)",
+        "GND (Massa)"
+      ],
+      "strandCount": 2
+    },
+    {
       "slackMm": 0,
       "sourceInstanceId": "18-1",
-      "calculatedLengthMm": 1124,
+      "calculatedLengthMm": 1114,
       "curveTension": 0.5,
       "id": "cable_1788528681056_9koh15",
       "flowDirection": "forward",
@@ -2919,7 +2950,7 @@
         "#1e293b"
       ],
       "wireGauge": "22 AWG",
-      "calculatedLengthMm": 1220,
+      "calculatedLengthMm": 1208,
       "thicknessMm": 3,
       "cableType": "PWM",
       "strandLabels": [
@@ -2982,7 +3013,7 @@
       "flowDirection": "forward",
       "strandPitchMm": 2,
       "targetInstanceId": "12-7",
-      "calculatedLengthMm": 1197,
+      "calculatedLengthMm": 1188,
       "thicknessMm": 3,
       "isRibbon": true,
       "endStickers": {
@@ -3039,7 +3070,7 @@
       "targetPinName": "18-1.pin_8",
       "flowDirection": "reverse",
       "strandCount": 2,
-      "calculatedLengthMm": 663,
+      "calculatedLengthMm": 659,
       "strandPitchMm": 2,
       "name": "Old shassi buruvchi (Nose Gear Steering) [pin_1] → Servo quvvatlash UBEC 12A [pin_8]",
       "curveTension": 0.5,
@@ -3176,6 +3207,52 @@
       "calculatedLengthMm": 37,
       "id": "cable_1788543416385_gb7bfl",
       "sourceInstanceId": "09-1"
+    },
+    {
+      "strandLabels": [
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
+      ],
+      "strandCount": 2,
+      "isRibbon": true,
+      "routePoints": [
+        {
+          "type": "waypoint",
+          "z": 99.4,
+          "y": 165.2,
+          "x": -134.8,
+          "id": "pt_1788546136423_a6hw"
+        },
+        {
+          "type": "waypoint",
+          "x": -48.5,
+          "id": "pt_1788546159153_jj2u",
+          "z": 99.4,
+          "y": 155.9
+        }
+      ],
+      "id": "cable_1788546115710_9cua77",
+      "slackMm": 0,
+      "strandPitchMm": 2,
+      "flowDirection": "forward",
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "sourceInstanceId": "07-1",
+      "targetPinName": "18-1.pin_9",
+      "color": "#ef4444",
+      "calculatedLengthMm": 139,
+      "sourcePinName": "07-1.pin_2",
+      "wireGauge": "16 AWG",
+      "name": "Holybro PM02 V3 12S #1 [pin_2] → Servo quvvatlash UBEC 12A [pin_9]",
+      "cableType": "Power",
+      "curveTension": 0.5,
+      "endStickers": {
+        "enabled": false
+      },
+      "targetInstanceId": "18-1",
+      "thicknessMm": 3
     },
     {
       "endStickers": {
@@ -3791,6 +3868,56 @@
       "strandPitchMm": 1.2,
       "name": "Matek BEC12S PRO #1 [pin_2] → 4S avionics battery #1 [pin_1]",
       "transparencyOpacity": 0.85
+    },
+    {
+      "strandPitchMm": 2,
+      "flowDirection": "smart",
+      "strandCount": 2,
+      "targetPinName": "25-1.pin_3",
+      "sourceInstanceId": "09-1",
+      "routePoints": [
+        {
+          "x": -15.4,
+          "type": "waypoint",
+          "id": "pt_1788627933875_fxw9",
+          "z": 386.3,
+          "y": 210.5
+        }
+      ],
+      "slackMm": 0,
+      "isBreakout": true,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "transparencyOpacity": 0.45,
+      "isTransparent": false,
+      "id": "cable_1788627917706_ek6xfa",
+      "name": "4S avionics battery #1 [1 Port] ➔ 12V UBEC #1 [2-Pin Breakout]",
+      "wireGauge": "16 AWG",
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "calculatedLengthMm": 184,
+      "curveTension": 0.5,
+      "cableType": "Power",
+      "breakoutMode": "1-to-N",
+      "strandLabels": [
+        "V +",
+        "GND -"
+      ],
+      "breakoutType": "1-to-N",
+      "targetInstanceId": "25-1",
+      "thicknessMm": 3,
+      "color": "#ef4444",
+      "multiTargetPinNames": [
+        "25-1.pin_3",
+        "25-1.pin_4"
+      ],
+      "sourcePinName": "09-1.pin_1",
+      "isRibbon": true,
+      "endStickers": {
+        "enabled": false
+      }
     },
     {
       "strandPitchMm": 2,
@@ -4467,6 +4594,48 @@
     {
       "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
       "sourceInstanceId": "11-1",
+      "sourcePinName": "11-1.pin_1",
+      "targetInstanceId": "02-1",
+      "targetPinName": "02-1.pin_11",
+      "isBreakout": true,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "multiTargetPinNames": [
+        "02-1.pin_11",
+        "02-1.pin_9"
+      ],
+      "flowDirection": "smart",
+      "color": "#f59e0b",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#f59e0b",
+        "#000000"
+      ],
+      "strandLabels": [
+        "Signal (PWM)",
+        "GND"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790596471173_9eospq",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [],
+      "calculatedLengthMm": 697
+    },
+    {
+      "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
+      "sourceInstanceId": "11-1",
       "sourcePinName": "11-1.pin_6",
       "targetInstanceId": "02-1",
       "targetPinName": "02-1.pin_11",
@@ -4541,48 +4710,6 @@
         }
       ],
       "calculatedLengthMm": 890
-    },
-    {
-      "name": "Holybro PM02 V3 12S #1 [1 Port] ➔ 12V UBEC #1 [2-Pin Breakout]",
-      "sourceInstanceId": "07-1",
-      "sourcePinName": "07-1.pin_2",
-      "targetInstanceId": "25-1",
-      "targetPinName": "25-1.pin_3",
-      "isBreakout": true,
-      "breakoutType": "1-to-N",
-      "breakoutMode": "1-to-N",
-      "multiTargetPinNames": [
-        "25-1.pin_3",
-        "25-1.pin_4"
-      ],
-      "flowDirection": "smart",
-      "color": "#ef4444",
-      "cableType": "Power",
-      "wireGauge": "16 AWG",
-      "isRibbon": true,
-      "strandCount": 2,
-      "strandPitchMm": 2,
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "strandLabels": [
-        "VCC (+5V/+6V)",
-        "GND "
-      ],
-      "isTransparent": false,
-      "transparencyOpacity": 0.45,
-      "isTubing": false,
-      "tubeInnerColor": "#38bdf8",
-      "endStickers": {
-        "enabled": false
-      },
-      "id": "cable_1790715416862_jss9bp",
-      "slackMm": 0,
-      "curveTension": 0.5,
-      "thicknessMm": 3,
-      "routePoints": [],
-      "calculatedLengthMm": 324
     }
   ],
   "droneFrame": {
@@ -4657,9 +4784,9 @@
       "sourceType": "file",
       "format": "glb",
       "scaleMultiplier": 1,
-      "fileName": "Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
-      "fileUrl": "/models/custom/Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
-      "updatedAt": 1790714247156
+      "fileName": "GigaBlox_RevC_Colored.glb",
+      "fileUrl": "/models/custom/GigaBlox_RevC_Colored.glb",
+      "updatedAt": 1788689000000
     },
     "25": {
       "componentId": "25",
