@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T19:34:48.209Z",
-  "timestamp": 1790710488209,
+  "updatedAt": "2026-09-29T19:36:34.338Z",
+  "timestamp": 1790710594338,
   "instances": [
     {
       "instanceId": "01-1",
@@ -2562,7 +2562,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790710082901
+      "modelVersion": 1790710579536
     },
     {
       "instanceId": "26-1",
@@ -4888,8 +4888,7 @@
       "scaleMultiplier": 1,
       "fileName": "ubec_12v.glb",
       "fileUrl": "/models/custom/ubec_12v.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/ubec_12v.glb?v=1790705066152",
-      "updatedAt": 1790705066152
+      "updatedAt": 1790710576012
     },
     "26": {
       "componentId": "26",
