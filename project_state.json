@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T20:53:39.523Z",
-  "timestamp": 1790715219523,
+  "updatedAt": "2026-09-29T20:58:30.933Z",
+  "timestamp": 1790715510933,
   "instances": [
     {
       "instanceId": "01-1",
@@ -3794,56 +3794,6 @@
     },
     {
       "strandPitchMm": 2,
-      "flowDirection": "smart",
-      "strandCount": 2,
-      "targetPinName": "25-1.pin_3",
-      "sourceInstanceId": "09-1",
-      "routePoints": [
-        {
-          "x": -15.4,
-          "type": "waypoint",
-          "id": "pt_1788627933875_fxw9",
-          "z": 386.3,
-          "y": 210.5
-        }
-      ],
-      "slackMm": 0,
-      "isBreakout": true,
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "transparencyOpacity": 0.45,
-      "isTransparent": false,
-      "id": "cable_1788627917706_ek6xfa",
-      "name": "4S avionics battery #1 [1 Port] ➔ 12V UBEC #1 [2-Pin Breakout]",
-      "wireGauge": "16 AWG",
-      "isTubing": false,
-      "tubeInnerColor": "#38bdf8",
-      "calculatedLengthMm": 184,
-      "curveTension": 0.5,
-      "cableType": "Power",
-      "breakoutMode": "1-to-N",
-      "strandLabels": [
-        "V +",
-        "GND -"
-      ],
-      "breakoutType": "1-to-N",
-      "targetInstanceId": "25-1",
-      "thicknessMm": 3,
-      "color": "#ef4444",
-      "multiTargetPinNames": [
-        "25-1.pin_3",
-        "25-1.pin_4"
-      ],
-      "sourcePinName": "09-1.pin_1",
-      "isRibbon": true,
-      "endStickers": {
-        "enabled": false
-      }
-    },
-    {
-      "strandPitchMm": 2,
       "slackMm": 0,
       "targetPinName": "25-1.pin_2",
       "strandColors": [
@@ -4591,6 +4541,48 @@
         }
       ],
       "calculatedLengthMm": 890
+    },
+    {
+      "name": "Holybro PM02 V3 12S #1 [1 Port] ➔ 12V UBEC #1 [2-Pin Breakout]",
+      "sourceInstanceId": "07-1",
+      "sourcePinName": "07-1.pin_2",
+      "targetInstanceId": "25-1",
+      "targetPinName": "25-1.pin_3",
+      "isBreakout": true,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "multiTargetPinNames": [
+        "25-1.pin_3",
+        "25-1.pin_4"
+      ],
+      "flowDirection": "smart",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "VCC (+5V/+6V)",
+        "GND "
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790715416862_jss9bp",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [],
+      "calculatedLengthMm": 324
     }
   ],
   "droneFrame": {
