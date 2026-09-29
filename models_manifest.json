@@ -51,12 +51,12 @@
   },
   {
     "componentId": "25",
-    "fileName": "FPV_BlueSky_UBEC_12V.glb",
+    "fileName": "ubec_12v.glb",
     "format": "glb",
     "scaleMultiplier": 1,
-    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/FPV_BlueSky_UBEC_12V.glb",
-    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/FPV_BlueSky_UBEC_12V.glb",
-    "uploadedAt": "2026-09-29T18:02:39.166Z",
-    "updatedAt": 1790704959166
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/ubec_12v.glb",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/ubec_12v.glb",
+    "uploadedAt": "2026-09-29T18:04:26.152Z",
+    "updatedAt": 1790705066152
   }
 ]
