@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-29T23:37:00.183Z",
-  "timestamp": 1790725020183,
+  "updatedAt": "2026-09-30T00:32:15.028Z",
+  "timestamp": 1790728335028,
   "instances": [
     {
       "instanceId": "01-1",
@@ -198,6 +198,118 @@
             -31,
             -28.5,
             0.3
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "p_11",
+          "connectorId": "custom",
+          "fullName": "02-1.p_11",
+          "label": "MAIN 1 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            46.9,
+            -32.7,
+            -2.4
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_12",
+          "connectorId": "port",
+          "fullName": "02-1.pin_12",
+          "label": "MAIN 2 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.7,
+            -32.6,
+            0.1
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_13",
+          "connectorId": "port",
+          "fullName": "02-1.pin_13",
+          "label": "MAIN 3 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.1,
+            -32.7,
+            2.6
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_14",
+          "connectorId": "port",
+          "fullName": "02-1.pin_14",
+          "label": "MAIN 4 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.1,
+            -32.7,
+            5.4
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_15",
+          "connectorId": "port",
+          "fullName": "02-1.pin_15",
+          "label": "MAIN 5 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.1,
+            -32.6,
+            7.8
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_16",
+          "connectorId": "port",
+          "fullName": "02-1.pin_16",
+          "label": "MAIN 6 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            44.9,
+            -33,
+            10.5
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_17",
+          "connectorId": "port",
+          "fullName": "02-1.pin_17",
+          "label": "MAIN 7 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            46.5,
+            -32.6,
+            13.1
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_18",
+          "connectorId": "port",
+          "fullName": "02-1.pin_18",
+          "label": "MAIN 8 S",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.5,
+            -32.8,
+            15.7
           ],
           "verified": true
         }
@@ -1750,7 +1862,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "17-1",
@@ -1974,7 +2086,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "18-2",
@@ -2002,7 +2114,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "19-1",
@@ -2171,7 +2283,7 @@
           ]
         }
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "21-1",
@@ -2264,7 +2376,7 @@
         0,
         0
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "23-1",
@@ -2364,7 +2476,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "24-1",
@@ -2461,7 +2573,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "25-1",
@@ -2547,7 +2659,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "26-1",
@@ -2575,7 +2687,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "27-1",
@@ -2603,7 +2715,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790724872768
+      "modelVersion": 1790724359122
     },
     {
       "instanceId": "21-2",
@@ -2805,7 +2917,7 @@
       ],
       "thicknessMm": 3,
       "strandCount": 2,
-      "calculatedLengthMm": 920,
+      "calculatedLengthMm": 918,
       "targetInstanceId": "18-1",
       "name": "O‘ng qanot flap 2 (Right Flap) [pin_1] → Servo quvvatlash UBEC 12A [pin_3]",
       "routePoints": [
@@ -2814,6 +2926,13 @@
           "x": 637.3,
           "z": 313.5,
           "y": 315.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726453669_qnj0",
+          "x": 208.9,
+          "y": 316.2,
+          "z": 288.2,
           "type": "waypoint"
         },
         {
@@ -3080,7 +3199,7 @@
     },
     {
       "strandColors": [
-        "#f59e0b",
+        "#ef4444",
         "#1e293b"
       ],
       "endStickers": {
@@ -3091,10 +3210,10 @@
       "slackMm": 0,
       "targetInstanceId": "18-1",
       "strandLabels": [
-        "Signal (PWM)",
-        "GND (Massa)"
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
       ],
-      "color": "#f59e0b",
+      "color": "#ef4444",
       "thicknessMm": 3,
       "targetPinName": "18-1.pin_8",
       "flowDirection": "reverse",
@@ -3103,8 +3222,8 @@
       "strandPitchMm": 2,
       "name": "Old shassi buruvchi (Nose Gear Steering) [pin_1] → Servo quvvatlash UBEC 12A [pin_8]",
       "curveTension": 0.5,
-      "cableType": "PWM",
-      "wireGauge": "22 AWG",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
       "routePoints": [
         {
           "id": "pt_1788537524385_t5cm",
@@ -3508,6 +3627,13 @@
           "type": "waypoint",
           "id": "pt_1788600799819_vk9u",
           "x": -39.2
+        },
+        {
+          "id": "wp_1790725694524_od09",
+          "x": -33.4,
+          "y": 156.1,
+          "z": 825.8,
+          "type": "waypoint"
         }
       ]
     },
@@ -3782,7 +3908,7 @@
       "strandCount": 2,
       "wireGauge": "16 AWG",
       "isBreakout": false,
-      "calculatedLengthMm": 368,
+      "calculatedLengthMm": 369,
       "cableType": "Power",
       "routePoints": [
         {
@@ -3800,8 +3926,15 @@
           "type": "waypoint"
         },
         {
+          "id": "wp_1790728092882_dbkk",
+          "x": -14.4,
+          "y": 57.2,
+          "z": 783.6,
+          "type": "waypoint"
+        },
+        {
           "y": 57.7,
-          "z": 764.2,
+          "z": 750.2,
           "x": -16.4,
           "type": "waypoint",
           "id": "pt_1788617594802_jupc"
@@ -3879,6 +4012,13 @@
       "isTransparent": false,
       "cableType": "Power",
       "routePoints": [
+        {
+          "id": "wp_1790726595095_9lre",
+          "x": -24.6,
+          "y": 80.3,
+          "z": 794.5,
+          "type": "waypoint"
+        },
         {
           "z": 754.5,
           "y": 97.6,
@@ -4510,6 +4650,71 @@
       "name": "Chap motor regulyatori (ESC 1) [pin_5] → Emergency Stop #1 [pin_2]"
     },
     {
+      "isRibbon": false,
+      "breakoutType": "1-to-N",
+      "strandLabels": [
+        "POWER -"
+      ],
+      "isTransparent": false,
+      "sourceInstanceId": "11-1",
+      "color": "#000000",
+      "strandPitchMm": 2,
+      "breakoutMode": "1-to-N",
+      "isBreakout": false,
+      "flowDirection": "reverse",
+      "targetPinName": "08-1.pin_1",
+      "curveTension": 0.5,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "endStickers": {
+        "enabled": false
+      },
+      "thicknessMm": 3,
+      "strandCount": 1,
+      "tubeInnerColor": "#38bdf8",
+      "slackMm": 0,
+      "strandColors": [
+        "#000000"
+      ],
+      "targetInstanceId": "08-1",
+      "wireGauge": "16 AWG",
+      "routePoints": [
+        {
+          "y": 286.1,
+          "z": 222.4,
+          "id": "pt_1788634887439_7361",
+          "x": -515.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "pt_1790595911011_gsjg",
+          "x": -480.5,
+          "y": 281.2,
+          "z": 220.6,
+          "type": "waypoint"
+        },
+        {
+          "z": 335,
+          "y": 276.1,
+          "id": "pt_1788635091862_ncx1",
+          "type": "waypoint",
+          "x": -238.3
+        },
+        {
+          "x": 66.2,
+          "id": "pt_1788634869797_lxft",
+          "z": 460.6,
+          "y": 229,
+          "type": "waypoint"
+        }
+      ],
+      "cableType": "Power",
+      "sourcePinName": "11-1.pin_4",
+      "calculatedLengthMm": 717,
+      "name": "Chap motor regulyatori (ESC 1) [pin_4] → TATTU 22000 mAh battery #1 [pin_1]",
+      "id": "cable_1788634834478_9lgfd3"
+    },
+    {
       "name": "GigaBlox switch #1 [pin_6] → Matek BEC12S PRO #1 [pin_1]",
       "sourceInstanceId": "24-1",
       "sourcePinName": "24-1.pin_6",
@@ -4655,7 +4860,7 @@
       "wireGauge": "26 AWG",
       "isRibbon": true,
       "strandCount": 4,
-      "strandPitchMm": 1.2,
+      "strandPitchMm": 2,
       "strandColors": [
         "#ef4444",
         "#10b981",
@@ -4678,13 +4883,20 @@
       "id": "cable_1790724600262_70lomx",
       "slackMm": 0,
       "curveTension": 0.5,
-      "thicknessMm": 2,
+      "thicknessMm": 3,
       "routePoints": [
         {
           "id": "wp_1790724608566_83pt",
           "x": -42.9,
           "y": 18,
           "z": 791.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728103490_r8ly",
+          "x": -60.1,
+          "y": 81.3,
+          "z": 800.8,
           "type": "waypoint"
         },
         {
@@ -4696,27 +4908,676 @@
         },
         {
           "id": "wp_1790724639781_uzje",
-          "x": -40.9,
+          "x": -57.9,
           "y": 161.3,
           "z": 820.7,
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 219
+      "calculatedLengthMm": 208
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_18] → Old shassi buruvchi (Nose Gear Steering) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_18",
+      "targetInstanceId": "12-5",
+      "targetPinName": "12-5.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "forward",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 8 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790725754480_bhj6ji",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 2,
+      "routePoints": [
+        {
+          "id": "wp_1790725817105_2m3v",
+          "x": 63.9,
+          "y": 143.5,
+          "z": 833.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790725861454_1aqt",
+          "x": 72.3,
+          "y": 137,
+          "z": 791.7,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790725796502_8mak",
+          "x": 9.7,
+          "y": 64.6,
+          "z": 566.9,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 350
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_17] → Chap qanot eleron 1 (Left Aileron) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_17",
+      "targetInstanceId": "12-1",
+      "targetPinName": "12-1.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "forward",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 7 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790726001540_yib9o8",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 1.8,
+      "routePoints": [
+        {
+          "id": "wp_1790727035186_jpxv",
+          "x": 116.3,
+          "y": 146.4,
+          "z": 825.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727279683_aog5",
+          "x": 132.7,
+          "y": 146.9,
+          "z": 748.6,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727262561_r37x",
+          "x": 146.5,
+          "y": 163.9,
+          "z": 418.2,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727234660_nawm",
+          "x": 109.9,
+          "y": 252.3,
+          "z": 304,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727352649_dmlo",
+          "x": -272.6,
+          "y": 311.1,
+          "z": 341.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727335000_btao",
+          "x": -811.5,
+          "y": 330.1,
+          "z": 359.6,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 1905
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_16] → Chap qanot flap 2 (Left Flap) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_16",
+      "targetInstanceId": "12-2",
+      "targetPinName": "12-2.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 6 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false,
+        "sourceText": "CUBE_ORANGE_ADS-B_#1:pin_16",
+        "targetText": "CHAP_QANOT_FLAP_2_(LEFT_FLAP):pin_1",
+        "bgColor": "#facc15",
+        "textColor": "#000000",
+        "style": "flag",
+        "offsetFromEndMm": 20,
+        "rotationDeg": 0,
+        "sizeMm": 24
+      },
+      "id": "cable_1790726031139_4h8xwk",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 1.8,
+      "routePoints": [
+        {
+          "id": "wp_1790727403110_mt9p",
+          "x": 115,
+          "y": 155.8,
+          "z": 833.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727448072_y22n",
+          "x": 120.9,
+          "y": 151.6,
+          "z": 731.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727494378_h5kv",
+          "x": 140.1,
+          "y": 158.4,
+          "z": 454.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727474162_9jn3",
+          "x": 105.8,
+          "y": 237.7,
+          "z": 307.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727536681_975g",
+          "x": -476.9,
+          "y": 337.3,
+          "z": 309.3,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 1443
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_15] → O‘ng qanot eleron 1 (Right Aileron) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_15",
+      "targetInstanceId": "12-3",
+      "targetPinName": "12-3.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#f59e0b",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#f59e0b"
+      ],
+      "strandLabels": [
+        "Signal"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false,
+        "sourceText": "CUBE_ORANGE_ADS-B_#1:pin_15",
+        "targetText": "O‘NG_QANOT_ELERON_1_(RIGHT_AILERON):pin_1",
+        "bgColor": "#facc15",
+        "textColor": "#000000",
+        "style": "flag",
+        "offsetFromEndMm": 20,
+        "rotationDeg": 0,
+        "sizeMm": 24
+      },
+      "id": "cable_1790726062614_jfyd4q",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 1.8,
+      "routePoints": [
+        {
+          "id": "wp_1790726407052_wgv2",
+          "x": 139.7,
+          "y": 180.2,
+          "z": 832.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726782414_jnhx",
+          "x": 150.2,
+          "y": 178.6,
+          "z": 775.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726319292_bh2d",
+          "x": 157.4,
+          "y": 192.1,
+          "z": 409.3,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726824427_m5of",
+          "x": 137.9,
+          "y": 277.3,
+          "z": 320.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726385687_6vls",
+          "x": 757.1,
+          "y": 320.3,
+          "z": 354.7,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726392321_tu72",
+          "x": 992.8,
+          "y": 317.8,
+          "z": 351,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 1675
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_14] → O‘ng qanot flap 2 (Right Flap) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_14",
+      "targetInstanceId": "12-4",
+      "targetPinName": "12-4.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 4 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790726136227_w7ihqe",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 2.4,
+      "routePoints": [
+        {
+          "id": "wp_1790726642869_2wi0",
+          "x": 122.9,
+          "y": 158.6,
+          "z": 816.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726673823_c07g",
+          "x": 152.2,
+          "y": 188.5,
+          "z": 396.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726926775_sf9y",
+          "x": 136,
+          "y": 272.9,
+          "z": 323.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790726707275_qxa7",
+          "x": 435.8,
+          "y": 314.2,
+          "z": 321.3,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 1189
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_14] → Chap dum qanotchasi elevon (Left Elevator) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_14",
+      "targetInstanceId": "12-7",
+      "targetPinName": "12-7.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 4 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790726173911_ekeb0t",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 2.4,
+      "routePoints": [
+        {
+          "id": "wp_1790727738551_q9m7",
+          "x": 87.3,
+          "y": 145.9,
+          "z": 816.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727767063_hve5",
+          "x": 113.4,
+          "y": 154.9,
+          "z": 661.6,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727785406_9djg",
+          "x": 104.8,
+          "y": 161.2,
+          "z": 567.7,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727777279_xu5s",
+          "x": 86.4,
+          "y": 169.2,
+          "z": 423.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727794883_33ua",
+          "x": 66.9,
+          "y": 185.7,
+          "z": 139.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727806104_jjmi",
+          "x": 49,
+          "y": 175.8,
+          "z": -223.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727815434_zqg7",
+          "x": 51,
+          "y": 179.2,
+          "z": -406,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727854019_1pl8",
+          "x": 47.7,
+          "y": 185.3,
+          "z": -576.8,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728281434_vu6f",
+          "x": 41.4,
+          "y": 222.5,
+          "z": -764.9,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727830106_lpcn",
+          "x": -32,
+          "y": 248.5,
+          "z": -909.1,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 2148
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [pin_13] → Vertikal fin ruder (Vertical Fin) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.pin_13",
+      "targetInstanceId": "12-6",
+      "targetPinName": "12-6.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#f59e0b",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#f59e0b"
+      ],
+      "strandLabels": [
+        "Signal"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false,
+        "sourceText": "CUBE_ORANGE_ADS-B_#1:pin_13",
+        "targetText": "VERTIKAL_FIN_RUDER_(VERTICAL_FIN):pin_1",
+        "bgColor": "#facc15",
+        "textColor": "#000000",
+        "style": "flag",
+        "offsetFromEndMm": 20,
+        "rotationDeg": 0,
+        "sizeMm": 24
+      },
+      "id": "cable_1790726194171_1y2dvn",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 2.4,
+      "routePoints": [
+        {
+          "id": "wp_1790727610656_jv6z",
+          "x": 101.3,
+          "y": 148.6,
+          "z": 814.3,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727633044_b3mq",
+          "x": 114.6,
+          "y": 136.2,
+          "z": 696.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727656082_6v1i",
+          "x": 89.4,
+          "y": 145,
+          "z": 187.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727673736_5bdz",
+          "x": 52.4,
+          "y": 158,
+          "z": -212.7,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727706225_3ku8",
+          "x": 50.3,
+          "y": 173.9,
+          "z": -507.2,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790727690332_8krz",
+          "x": 25.2,
+          "y": 214.6,
+          "z": -837.9,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 2018
+    },
+    {
+      "name": "CUBE Orange ADS-B #1 [p_11] → O‘ng dum qanotchasi elevon (Right Elevator) [pin_1]",
+      "sourceInstanceId": "02-1",
+      "sourcePinName": "02-1.p_11",
+      "targetInstanceId": "12-8",
+      "targetPinName": "12-8.pin_1",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "smart",
+      "color": "#eab308",
+      "cableType": "PWM",
+      "wireGauge": "22 AWG",
+      "isRibbon": false,
+      "strandCount": 1,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#eab308"
+      ],
+      "strandLabels": [
+        "MAIN 1 S"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790728034023_k3olfe",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 1.8,
+      "routePoints": [
+        {
+          "id": "wp_1790728127009_hseg",
+          "x": 58,
+          "y": 148,
+          "z": 814.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728064247_55fx",
+          "x": 92.2,
+          "y": 136.7,
+          "z": 792.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728174685_bf9l",
+          "x": 98.8,
+          "y": 195.5,
+          "z": -93,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728190923_rt7y",
+          "x": 77.9,
+          "y": 204.2,
+          "z": -428,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728149998_wd1b",
+          "x": 74.4,
+          "y": 209.2,
+          "z": -596.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728306055_jc2l",
+          "x": 37.9,
+          "y": 233,
+          "z": -828.1,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790728239164_nzho",
+          "x": 52.2,
+          "y": 240.6,
+          "z": -874.7,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 2059
     }
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.15,
+    "opacity": 0.05,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.15,
+  "droneOpacity": 0.05,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "left",
+  "cameraViewMode": "perspective",
   "customModels": {
     "16": {
       "componentId": "16",
