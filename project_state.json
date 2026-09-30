@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-30T00:32:15.028Z",
-  "timestamp": 1790728335028,
+  "updatedAt": "2026-09-30T00:44:46.669Z",
+  "timestamp": 1790729086669,
   "instances": [
     {
       "instanceId": "01-1",
@@ -1822,7 +1822,7 @@
         {
           "connectorId": "port",
           "pinId": "pin_1",
-          "label": "IN +",
+          "label": "OUT +",
           "fullName": "16-1.pin_1",
           "voltage": "3.3V",
           "localOffset": [
@@ -1862,7 +1862,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "17-1",
@@ -2086,7 +2086,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "18-2",
@@ -2114,7 +2114,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "19-1",
@@ -2283,7 +2283,7 @@
           ]
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "21-1",
@@ -2376,7 +2376,7 @@
         0,
         0
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "23-1",
@@ -2476,7 +2476,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "24-1",
@@ -2573,7 +2573,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "25-1",
@@ -2659,7 +2659,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "26-1",
@@ -2687,7 +2687,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "27-1",
@@ -2715,7 +2715,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790724359122
+      "modelVersion": 1790728493916
     },
     {
       "instanceId": "21-2",
@@ -4203,42 +4203,6 @@
       "name": "Chap qanot uchi navi-chiroq (Left Wingtip Red) [1 Port] ➔ 12V UBEC #1 [2-Pin Breakout]"
     },
     {
-      "id": "cable_1788630712084_70q4c9",
-      "sourceInstanceId": "08-1",
-      "color": "#ef4444",
-      "slackMm": 0,
-      "strandLabels": [
-        "V +"
-      ],
-      "transparencyOpacity": 0.45,
-      "name": "TATTU 22000 mAh battery #1 [pin_2] → Emergency Stop #1 [pin_1]",
-      "strandPitchMm": 2,
-      "flowDirection": "forward",
-      "breakoutType": "1-to-N",
-      "isTubing": false,
-      "targetPinName": "16-1.pin_1",
-      "thicknessMm": 3,
-      "curveTension": 0.5,
-      "isRibbon": false,
-      "isTransparent": false,
-      "tubeInnerColor": "#38bdf8",
-      "breakoutMode": "1-to-N",
-      "endStickers": {
-        "enabled": false
-      },
-      "strandColors": [
-        "#ef4444"
-      ],
-      "routePoints": [],
-      "strandCount": 1,
-      "targetInstanceId": "16-1",
-      "sourcePinName": "08-1.pin_2",
-      "wireGauge": "16 AWG",
-      "isBreakout": false,
-      "cableType": "Power",
-      "calculatedLengthMm": 736
-    },
-    {
       "color": "#000000",
       "calculatedLengthMm": 110,
       "strandCount": 1,
@@ -4433,57 +4397,6 @@
       "breakoutMode": "1-to-N"
     },
     {
-      "routePoints": [
-        {
-          "id": "pt_1788634086495_xyn6",
-          "x": 113.9,
-          "type": "waypoint",
-          "z": 11.2,
-          "y": 294.8
-        },
-        {
-          "x": 22.6,
-          "type": "waypoint",
-          "id": "pt_1788634033953_wrq3",
-          "z": -195.3,
-          "y": 217.1
-        }
-      ],
-      "isTransparent": false,
-      "strandCount": 1,
-      "tubeInnerColor": "#38bdf8",
-      "slackMm": 0,
-      "wireGauge": "16 AWG",
-      "strandColors": [
-        "#ef4444"
-      ],
-      "flowDirection": "reverse",
-      "id": "cable_1788634000227_3th04n",
-      "targetInstanceId": "16-1",
-      "targetPinName": "16-1.pin_2",
-      "cableType": "Power",
-      "transparencyOpacity": 0.45,
-      "strandPitchMm": 2,
-      "sourcePinName": "11-2.pin_5",
-      "curveTension": 0.5,
-      "calculatedLengthMm": 740,
-      "breakoutMode": "1-to-N",
-      "sourceInstanceId": "11-2",
-      "isRibbon": false,
-      "name": "O‘ng motor regulyatori (ESC 2) [pin_5] → Emergency Stop #1 [pin_2]",
-      "isBreakout": false,
-      "endStickers": {
-        "enabled": false
-      },
-      "thicknessMm": 3,
-      "color": "#ef4444",
-      "isTubing": false,
-      "strandLabels": [
-        "POWER +"
-      ],
-      "breakoutType": "1-to-N"
-    },
-    {
       "isTubing": false,
       "id": "cable_1788634509924_to6q2v",
       "transparencyOpacity": 0.45,
@@ -4590,129 +4503,6 @@
       "curveTension": 0.5,
       "cableType": "Power",
       "isTubing": false
-    },
-    {
-      "curveTension": 0.5,
-      "cableType": "Power",
-      "breakoutMode": "1-to-N",
-      "flowDirection": "reverse",
-      "color": "#ef4444",
-      "wireGauge": "16 AWG",
-      "targetPinName": "16-1.pin_2",
-      "strandPitchMm": 2,
-      "isTransparent": false,
-      "targetInstanceId": "16-1",
-      "strandCount": 1,
-      "transparencyOpacity": 0.45,
-      "id": "cable_1788634799296_x1lxj5",
-      "strandLabels": [
-        "POWER +"
-      ],
-      "routePoints": [
-        {
-          "type": "waypoint",
-          "x": -203.5,
-          "id": "pt_1788634980086_8k97",
-          "z": 47.6,
-          "y": 296.2
-        },
-        {
-          "x": -84.5,
-          "type": "waypoint",
-          "id": "pt_1788635071576_0fzv",
-          "y": 288.5,
-          "z": -24.2
-        },
-        {
-          "id": "pt_1788634966755_2m73",
-          "z": -90.5,
-          "y": 245.1,
-          "type": "waypoint",
-          "x": -57.9
-        }
-      ],
-      "breakoutType": "1-to-N",
-      "sourceInstanceId": "11-1",
-      "endStickers": {
-        "enabled": false
-      },
-      "isRibbon": false,
-      "thicknessMm": 3,
-      "sourcePinName": "11-1.pin_5",
-      "calculatedLengthMm": 732,
-      "isBreakout": false,
-      "isTubing": false,
-      "strandColors": [
-        "#ef4444"
-      ],
-      "slackMm": 0,
-      "tubeInnerColor": "#38bdf8",
-      "name": "Chap motor regulyatori (ESC 1) [pin_5] → Emergency Stop #1 [pin_2]"
-    },
-    {
-      "isRibbon": false,
-      "breakoutType": "1-to-N",
-      "strandLabels": [
-        "POWER -"
-      ],
-      "isTransparent": false,
-      "sourceInstanceId": "11-1",
-      "color": "#000000",
-      "strandPitchMm": 2,
-      "breakoutMode": "1-to-N",
-      "isBreakout": false,
-      "flowDirection": "reverse",
-      "targetPinName": "08-1.pin_1",
-      "curveTension": 0.5,
-      "transparencyOpacity": 0.45,
-      "isTubing": false,
-      "endStickers": {
-        "enabled": false
-      },
-      "thicknessMm": 3,
-      "strandCount": 1,
-      "tubeInnerColor": "#38bdf8",
-      "slackMm": 0,
-      "strandColors": [
-        "#000000"
-      ],
-      "targetInstanceId": "08-1",
-      "wireGauge": "16 AWG",
-      "routePoints": [
-        {
-          "y": 286.1,
-          "z": 222.4,
-          "id": "pt_1788634887439_7361",
-          "x": -515.1,
-          "type": "waypoint"
-        },
-        {
-          "id": "pt_1790595911011_gsjg",
-          "x": -480.5,
-          "y": 281.2,
-          "z": 220.6,
-          "type": "waypoint"
-        },
-        {
-          "z": 335,
-          "y": 276.1,
-          "id": "pt_1788635091862_ncx1",
-          "type": "waypoint",
-          "x": -238.3
-        },
-        {
-          "x": 66.2,
-          "id": "pt_1788634869797_lxft",
-          "z": 460.6,
-          "y": 229,
-          "type": "waypoint"
-        }
-      ],
-      "cableType": "Power",
-      "sourcePinName": "11-1.pin_4",
-      "calculatedLengthMm": 717,
-      "name": "Chap motor regulyatori (ESC 1) [pin_4] → TATTU 22000 mAh battery #1 [pin_1]",
-      "id": "cable_1788634834478_9lgfd3"
     },
     {
       "name": "GigaBlox switch #1 [pin_6] → Matek BEC12S PRO #1 [pin_1]",
@@ -5564,6 +5354,98 @@
         }
       ],
       "calculatedLengthMm": 2059
+    },
+    {
+      "name": "TATTU 22000 mAh battery #1 [2 Pins] ➔ Emergency Stop #1 [2 Pins]",
+      "sourceInstanceId": "08-1",
+      "sourcePinName": "08-1.pin_2",
+      "targetInstanceId": "16-1",
+      "targetPinName": "16-1.pin_2",
+      "isBreakout": true,
+      "breakoutType": "N-to-N",
+      "breakoutMode": "N-to-N",
+      "multiTargetPinNames": [
+        "16-1.pin_2",
+        "16-1.pin_3"
+      ],
+      "multiSourcePinNames": [
+        "08-1.pin_2",
+        "08-1.pin_1"
+      ],
+      "flowDirection": "smart",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "VCC",
+        "GND"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790728739458_td7klj",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [],
+      "calculatedLengthMm": 733
+    },
+    {
+      "name": "Emergency Stop #1 [2 Pins] ➔ Chap motor regulyatori (ESC 1) [2 Pins]",
+      "sourceInstanceId": "16-1",
+      "sourcePinName": "16-1.pin_1",
+      "targetInstanceId": "11-1",
+      "targetPinName": "11-1.pin_5",
+      "isBreakout": true,
+      "breakoutType": "N-to-N",
+      "breakoutMode": "N-to-N",
+      "multiTargetPinNames": [
+        "11-1.pin_5",
+        "11-1.pin_4"
+      ],
+      "multiSourcePinNames": [
+        "16-1.pin_1",
+        "16-1.pin_3"
+      ],
+      "flowDirection": "smart",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "Signal (PWM)",
+        "VCC (+5V/+6V)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790729032027_awvq9o",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [],
+      "calculatedLengthMm": 682
     }
   ],
   "droneFrame": {
