@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-30T00:44:46.669Z",
-  "timestamp": 1790729086669,
+  "updatedAt": "2026-09-30T00:51:21.822Z",
+  "timestamp": 1790729481822,
   "instances": [
     {
       "instanceId": "01-1",
@@ -1038,7 +1038,7 @@
       "customLabel": "O‘ng motor regulyatori (ESC 2)",
       "isAirframe": false,
       "placed": true,
-      "locked": true,
+      "locked": false,
       "visible": true,
       "position": [
         513.4,
@@ -1860,9 +1860,23 @@
             45.9
           ],
           "verified": true
+        },
+        {
+          "pinId": "pin_4",
+          "connectorId": "port",
+          "fullName": "16-1.pin_4",
+          "label": "Pin #4 [10, -7, 46]",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            9.9,
+            -7.3,
+            45.9
+          ],
+          "verified": true
         }
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "17-1",
@@ -2086,7 +2100,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "18-2",
@@ -2114,7 +2128,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "19-1",
@@ -2283,7 +2297,7 @@
           ]
         }
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "21-1",
@@ -2376,7 +2390,7 @@
         0,
         0
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "23-1",
@@ -2476,7 +2490,7 @@
           "voltage": "3.3V"
         }
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "24-1",
@@ -2573,7 +2587,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "25-1",
@@ -2659,7 +2673,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "26-1",
@@ -2687,7 +2701,7 @@
         1
       ],
       "weightG": 80,
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "27-1",
@@ -2715,7 +2729,7 @@
         1
       ],
       "weightG": 95,
-      "modelVersion": 1790728493916
+      "modelVersion": 1790729158989
     },
     {
       "instanceId": "21-2",
@@ -2964,7 +2978,7 @@
       "endStickers": {
         "enabled": false
       },
-      "calculatedLengthMm": 1380,
+      "calculatedLengthMm": 1379,
       "sourcePinName": "12-3.pin_1",
       "cableType": "Power",
       "name": "O‘ng qanot eleron 1 (Right Aileron) [pin_1] → Servo quvvatlash UBEC 12A [pin_4]",
@@ -2982,6 +2996,13 @@
           "x": 1028.8,
           "z": 350.9,
           "y": 311.3
+        },
+        {
+          "id": "wp_1790729287702_shbc",
+          "x": 502.4,
+          "y": 325.6,
+          "z": 350.2,
+          "type": "waypoint"
         },
         {
           "id": "pt_1788526246509_vkof",
@@ -5444,18 +5465,87 @@
       "slackMm": 0,
       "curveTension": 0.5,
       "thicknessMm": 3,
-      "routePoints": [],
-      "calculatedLengthMm": 682
+      "routePoints": [
+        {
+          "id": "wp_1790729399357_pjtn",
+          "x": -97.9,
+          "y": 289.1,
+          "z": 40.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790729392758_sh64",
+          "x": -355.8,
+          "y": 293.5,
+          "z": 144.8,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 747
+    },
+    {
+      "name": "Emergency Stop #1 [2 Pins] ➔ O‘ng motor regulyatori (ESC 2) [2 Pins]",
+      "sourceInstanceId": "16-1",
+      "sourcePinName": "16-1.pin_4",
+      "targetInstanceId": "11-2",
+      "targetPinName": "11-2.pin_5",
+      "isBreakout": true,
+      "breakoutType": "N-to-N",
+      "breakoutMode": "N-to-N",
+      "multiTargetPinNames": [
+        "11-2.pin_5",
+        "11-2.pin_6"
+      ],
+      "multiSourcePinNames": [
+        "16-1.pin_4",
+        "16-1.pin_3"
+      ],
+      "flowDirection": "smart",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "Signal (PWM)",
+        "VCC (+5V/+6V)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790729358784_olh3eg",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [
+        {
+          "id": "wp_1790729423705_rzyx",
+          "x": 37.8,
+          "y": 285.5,
+          "z": 1.5,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 778
     }
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.05,
+    "opacity": 0.4,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.05,
+  "droneOpacity": 0.4,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
