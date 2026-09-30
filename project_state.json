@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-30T01:12:03.167Z",
-  "timestamp": 1790730723167,
+  "updatedAt": "2026-09-30T18:41:10.005Z",
+  "timestamp": 1790793670005,
   "instances": [
     {
       "instanceId": "01-1",
@@ -11,7 +11,7 @@
       "name": "Drone airframe",
       "customLabel": "Dron korpusi (Airframe 3500mm)",
       "isAirframe": true,
-      "placed": true,
+      "placed": false,
       "locked": false,
       "visible": true,
       "position": [
@@ -527,68 +527,97 @@
       "componentId": "06",
       "instanceIndex": 1,
       "name": "Matek BEC12S PRO",
-      "customLabel": "Matek BEC12S PRO #1",
+      "customLabel": "RCNUN DC-DC converter 12V 10A",
       "isAirframe": false,
       "placed": true,
       "locked": false,
       "visible": true,
       "position": [
         -8.4,
-        79.5,
+        85.8,
         796.8
       ],
       "rotation": [
-        0,
-        0,
-        0
+        91.9,
+        -87.8,
+        -89
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.5,
+        0.5,
+        0.5
       ],
       "weightG": 30,
       "customPins": [
         {
-          "localOffset": [
-            -15.6,
-            -1.1,
-            8.4
-          ],
           "pinId": "pin_1",
-          "label": "OUT",
-          "voltage": "3.3V",
-          "fullName": "06-1.pin_1",
-          "type": "signal",
           "connectorId": "port",
+          "fullName": "06-1.pin_1",
+          "label": "Power in",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            10.5,
+            -16.3,
+            79.1
+          ],
           "verified": true
         },
         {
-          "voltage": "3.3V",
-          "connectorId": "port",
-          "verified": true,
           "pinId": "pin_2",
+          "connectorId": "port",
           "fullName": "06-1.pin_2",
-          "localOffset": [
-            -16.1,
-            -1.1,
-            -0.7
-          ],
+          "label": "GND IN",
           "type": "signal",
-          "label": "IN"
+          "voltage": "3.3V",
+          "localOffset": [
+            3.4,
+            -16.2,
+            80.7
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_3",
+          "connectorId": "port",
+          "fullName": "06-1.pin_3",
+          "label": "GND OUT",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            -4.1,
+            -16.4,
+            80.7
+          ],
+          "verified": true
+        },
+        {
+          "pinId": "pin_4",
+          "connectorId": "port",
+          "fullName": "06-1.pin_4",
+          "label": "Power OUT",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            -11.7,
+            -16.7,
+            80.7
+          ],
+          "verified": true
         }
       ],
       "attachedToDrone": true,
       "droneRelativePos": [
         8.4,
-        -280.6,
+        -274.3,
         -796.8
       ],
       "droneRelativeRot": [
-        180,
-        0,
-        180
-      ]
+        88.1,
+        87.8,
+        91
+      ],
+      "modelVersion": 1790793076760
     },
     {
       "instanceId": "07-1",
@@ -1876,7 +1905,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "17-1",
@@ -2100,7 +2129,35 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
+    },
+    {
+      "instanceId": "18-2",
+      "componentId": "18",
+      "instanceIndex": 2,
+      "name": "Hobbywing UBEC",
+      "customLabel": "Avionika va datchiklar UBEC 12A",
+      "isAirframe": false,
+      "placed": false,
+      "locked": false,
+      "visible": true,
+      "position": [
+        40,
+        -15,
+        60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "weightG": 28,
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "19-1",
@@ -2269,7 +2326,7 @@
           ]
         }
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "21-1",
@@ -2362,7 +2419,7 @@
         0,
         0
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "24-1",
@@ -2459,7 +2516,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "25-1",
@@ -2545,7 +2602,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790730344289
+      "modelVersion": 1790792369108
     },
     {
       "instanceId": "21-2",
@@ -2585,59 +2642,6 @@
     }
   ],
   "cables": [
-    {
-      "cableType": "Power",
-      "flowDirection": "forward",
-      "targetPinName": "19-1.pin_2",
-      "id": "cable_1788510690080_rz4g4e",
-      "strandCount": 2,
-      "curveTension": 0.5,
-      "isRibbon": true,
-      "strandPitchMm": 2,
-      "name": "Matek BEC12S PRO #1 [pin_1] → Jetson carrier assembly #1 [pin_2]",
-      "routePoints": [
-        {
-          "z": 809.2,
-          "y": 94.2,
-          "id": "pt_1788510703124_3mwq",
-          "x": -19.6,
-          "type": "waypoint"
-        },
-        {
-          "id": "pt_1790592380269_walk",
-          "x": -1.2,
-          "y": 116,
-          "z": 824,
-          "type": "waypoint"
-        },
-        {
-          "x": 12.2,
-          "type": "waypoint",
-          "id": "pt_1788510707756_rv4x",
-          "z": 840.8,
-          "y": 128.5
-        }
-      ],
-      "wireGauge": "16 AWG",
-      "color": "#ef4444",
-      "sourceInstanceId": "06-1",
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "slackMm": 0,
-      "sourcePinName": "06-1.pin_1",
-      "endStickers": {
-        "enabled": false
-      },
-      "calculatedLengthMm": 118,
-      "targetInstanceId": "19-1",
-      "thicknessMm": 3,
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ]
-    },
     {
       "cableType": "Power",
       "strandLabels": [
@@ -3537,7 +3541,7 @@
           "id": "pt_1788608948353_fyur",
           "x": 58.2,
           "z": 899.1,
-          "y": 101.9,
+          "y": 94.3,
           "type": "waypoint"
         },
         {
@@ -3568,7 +3572,7 @@
       "targetInstanceId": "19-1",
       "id": "cable_1788608885470_oueq9l",
       "tubeInnerColor": "#38bdf8",
-      "calculatedLengthMm": 169,
+      "calculatedLengthMm": 168,
       "sourceInstanceId": "24-1",
       "name": "undefined [pin_1] → Jetson carrier assembly #1 [pin_1]",
       "isTransparent": false,
@@ -3604,6 +3608,13 @@
           "type": "waypoint"
         },
         {
+          "id": "wp_1790792891742_976n",
+          "x": -1.7,
+          "y": 72.4,
+          "z": 830.9,
+          "type": "waypoint"
+        },
+        {
           "x": 67.2,
           "z": 921,
           "id": "pt_1788609519996_5y7z",
@@ -3621,7 +3632,7 @@
       "flowDirection": "bidirectional",
       "name": "MK32 HM30 Air Unit #1 [pin_2] → GigaBlox switch #1 [pin_3]",
       "strandPitchMm": 2,
-      "calculatedLengthMm": 272,
+      "calculatedLengthMm": 275,
       "color": "#b8b8b8",
       "tubeInnerColor": "#38bdf8",
       "sourcePinName": "04-1.pin_2",
@@ -3763,6 +3774,13 @@
           "type": "waypoint"
         },
         {
+          "id": "wp_1790792888974_88nd",
+          "x": -12.5,
+          "y": 58,
+          "z": 807.3,
+          "type": "waypoint"
+        },
+        {
           "id": "wp_1790728092882_dbkk",
           "x": -14.4,
           "y": 57.2,
@@ -3822,65 +3840,6 @@
         }
       ],
       "tubeInnerColor": "#38bdf8"
-    },
-    {
-      "curveTension": 0.5,
-      "isRibbon": true,
-      "sourcePinName": "06-1.pin_2",
-      "id": "cable_1788618113345_gfk1ec",
-      "sourceInstanceId": "06-1",
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ],
-      "endStickers": {
-        "enabled": false
-      },
-      "isTubing": false,
-      "thicknessMm": 3,
-      "breakoutType": "1-to-3",
-      "strandCount": 2,
-      "targetInstanceId": "09-1",
-      "slackMm": 0,
-      "isBreakout": false,
-      "calculatedLengthMm": 542,
-      "wireGauge": "16 AWG",
-      "tubeInnerColor": "#38bdf8",
-      "isTransparent": false,
-      "cableType": "Power",
-      "routePoints": [
-        {
-          "id": "wp_1790726595095_9lre",
-          "x": -24.6,
-          "y": 80.3,
-          "z": 794.5,
-          "type": "waypoint"
-        },
-        {
-          "z": 754.5,
-          "y": 97.6,
-          "type": "waypoint",
-          "x": -40.1,
-          "id": "pt_1788618234715_vncv"
-        },
-        {
-          "y": 129.5,
-          "z": 335.2,
-          "id": "pt_1788618246061_v9ai",
-          "type": "waypoint",
-          "x": -161.5
-        }
-      ],
-      "flowDirection": "reverse",
-      "color": "#ef4444",
-      "targetPinName": "09-1.pin_1",
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "strandPitchMm": 1.2,
-      "name": "Matek BEC12S PRO #1 [pin_2] → 4S avionics battery #1 [pin_1]",
-      "transparencyOpacity": 0.85
     },
     {
       "strandPitchMm": 2,
@@ -4342,59 +4301,6 @@
       "isTubing": false
     },
     {
-      "name": "GigaBlox switch #1 [pin_6] → Matek BEC12S PRO #1 [pin_1]",
-      "sourceInstanceId": "24-1",
-      "sourcePinName": "24-1.pin_6",
-      "targetInstanceId": "06-1",
-      "targetPinName": "06-1.pin_1",
-      "isBreakout": false,
-      "breakoutType": "1-to-N",
-      "breakoutMode": "1-to-N",
-      "flowDirection": "reverse",
-      "color": "#ef4444",
-      "cableType": "Power",
-      "wireGauge": "16 AWG",
-      "isRibbon": true,
-      "strandCount": 2,
-      "strandPitchMm": 2,
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ],
-      "isTransparent": false,
-      "transparencyOpacity": 0.45,
-      "isTubing": false,
-      "tubeInnerColor": "#38bdf8",
-      "endStickers": {
-        "enabled": false
-      },
-      "id": "cable_1788688352733_d3i87p",
-      "slackMm": 0,
-      "curveTension": 0.5,
-      "thicknessMm": 3,
-      "routePoints": [
-        {
-          "id": "pt_1788688361630_hg1h",
-          "x": -61.3,
-          "y": 94.4,
-          "z": 960.2,
-          "type": "waypoint"
-        },
-        {
-          "id": "pt_1790587741437_1x7v",
-          "x": -61.7,
-          "y": 98.9,
-          "z": 925.5,
-          "type": "waypoint"
-        }
-      ],
-      "calculatedLengthMm": 195
-    },
-    {
       "name": "Chap motor regulyatori (ESC 1) [1 Port] ➔ CUBE Orange ADS-B #1 [2-Pin Breakout]",
       "sourceInstanceId": "11-1",
       "sourcePinName": "11-1.pin_6",
@@ -4439,6 +4345,13 @@
           "x": -473.4,
           "y": 282.8,
           "z": 253.6,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790792966275_4myx",
+          "x": -194.1,
+          "y": 265,
+          "z": 403.6,
           "type": "waypoint"
         },
         {
@@ -4753,12 +4666,12 @@
         {
           "id": "wp_1790727536681_975g",
           "x": -476.9,
-          "y": 337.3,
+          "y": 322.5,
           "z": 309.3,
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 1443
+      "calculatedLengthMm": 1438
     },
     {
       "name": "CUBE Orange ADS-B #1 [pin_15] → O‘ng qanot eleron 1 (Right Aileron) [pin_1]",
@@ -5356,16 +5269,16 @@
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.05,
+    "opacity": 0.2,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.05,
+  "droneOpacity": 0.2,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "perspective",
+  "cameraViewMode": "left",
   "customModels": {
     "16": {
       "componentId": "16",
@@ -5436,9 +5349,9 @@
       "sourceType": "file",
       "format": "glb",
       "scaleMultiplier": 1,
-      "fileName": "ubec_12v.glb",
-      "fileUrl": "/models/custom/ubec_12v.glb",
-      "updatedAt": 1790714285077
+      "fileName": "UBEC_12_PRO_12V_8A_colored.glb",
+      "fileUrl": "/models/custom/UBEC_12_PRO_12V_8A_colored.glb",
+      "updatedAt": 1788689000000
     },
     "26": {
       "componentId": "26",
@@ -5659,6 +5572,16 @@
       "fileName": "25_ubec_12v.glb_1790705052145_25_ubec_12v.glb_1790705052145.glb",
       "cadZUp": false,
       "updatedAt": 1790708355549
+    },
+    "06": {
+      "componentId": "06",
+      "assetKey": "custom_06",
+      "sourceType": "file",
+      "format": "glb",
+      "scaleMultiplier": 1,
+      "fileName": "DC-DC_Converter_12V_10A.glb",
+      "fileUrl": "/models/custom/DC-DC_Converter_12V_10A.glb",
+      "updatedAt": 1790793071864
     }
   },
   "customManifest": [
