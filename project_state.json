@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-30T18:46:16.100Z",
-  "timestamp": 1790793976100,
+  "updatedAt": "2026-09-30T18:54:58.366Z",
+  "timestamp": 1790794498367,
   "instances": [
     {
       "instanceId": "01-1",
@@ -617,7 +617,7 @@
         87.8,
         91
       ],
-      "modelVersion": 1790793076760
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "07-1",
@@ -1905,7 +1905,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "17-1",
@@ -2129,7 +2129,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "18-2",
@@ -2157,7 +2157,7 @@
         1
       ],
       "weightG": 28,
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "19-1",
@@ -2326,7 +2326,7 @@
           ]
         }
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "21-1",
@@ -2419,7 +2419,35 @@
         0,
         0
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
+    },
+    {
+      "instanceId": "23-1",
+      "componentId": "23",
+      "instanceIndex": 1,
+      "name": "LS1005G Switch",
+      "customLabel": "LS1005G Switch #1",
+      "isAirframe": false,
+      "placed": false,
+      "locked": false,
+      "visible": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "weightG": 450,
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "24-1",
@@ -2516,7 +2544,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "25-1",
@@ -2602,7 +2630,63 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790792369108
+      "modelVersion": 1790794309964
+    },
+    {
+      "instanceId": "26-1",
+      "componentId": "26",
+      "instanceIndex": 1,
+      "name": "UBEC 12V Aux",
+      "customLabel": "UBEC 12V Aux #1",
+      "isAirframe": false,
+      "placed": false,
+      "locked": false,
+      "visible": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "weightG": 80,
+      "modelVersion": 1790794309964
+    },
+    {
+      "instanceId": "27-1",
+      "componentId": "27",
+      "instanceIndex": 1,
+      "name": "UBEC 12V Servo",
+      "customLabel": "UBEC 12V Servo #1",
+      "isAirframe": false,
+      "placed": false,
+      "locked": false,
+      "visible": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "weightG": 95,
+      "modelVersion": 1790794309964
     },
     {
       "instanceId": "21-2",
@@ -2668,10 +2752,10 @@
         }
       ],
       "targetPinName": "04-1.pin_1",
-      "calculatedLengthMm": 105,
+      "calculatedLengthMm": 270,
       "color": "#ef4444",
       "slackMm": 0,
-      "sourcePinName": "20-1.pin_1",
+      "sourcePinName": "20-1.pin_2",
       "targetInstanceId": "04-1",
       "thicknessMm": 3,
       "endStickers": {
@@ -2679,7 +2763,10 @@
       },
       "curveTension": 0.5,
       "id": "cable_1788521917444_du2o7t",
-      "isRibbon": true
+      "isRibbon": true,
+      "multiSourcePinNames": [
+        "20-1.pin_2"
+      ]
     },
     {
       "thicknessMm": 3,
@@ -4763,7 +4850,7 @@
     {
       "name": "CUBE Orange ADS-B #1 [pin_14] → O‘ng qanot flap 2 (Right Flap) [pin_1]",
       "sourceInstanceId": "02-1",
-      "sourcePinName": "02-1.pin_14",
+      "sourcePinName": "02-1.pin_12",
       "targetInstanceId": "12-4",
       "targetPinName": "12-4.pin_1",
       "isBreakout": false,
@@ -4823,7 +4910,10 @@
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 1189
+      "calculatedLengthMm": 1188,
+      "multiSourcePinNames": [
+        "02-1.pin_12"
+      ]
     },
     {
       "name": "CUBE Orange ADS-B #1 [pin_14] → Chap dum qanotchasi elevon (Left Elevator) [pin_1]",
