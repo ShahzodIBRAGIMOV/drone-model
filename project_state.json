@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-09-30T18:54:58.366Z",
-  "timestamp": 1790794498367,
+  "updatedAt": "2026-09-30T19:25:05.471Z",
+  "timestamp": 1790796305471,
   "instances": [
     {
       "instanceId": "01-1",
@@ -11,7 +11,7 @@
       "name": "Drone airframe",
       "customLabel": "Dron korpusi (Airframe 3500mm)",
       "isAirframe": true,
-      "placed": false,
+      "placed": true,
       "locked": false,
       "visible": true,
       "position": [
@@ -617,7 +617,7 @@
         87.8,
         91
       ],
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "07-1",
@@ -671,7 +671,7 @@
             -9.2
           ],
           "voltage": "3.3V",
-          "label": "Pin #2 [-78, 0, -9]",
+          "label": "OUT",
           "pinId": "pin_2"
         },
         {
@@ -1905,7 +1905,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "17-1",
@@ -2108,14 +2108,28 @@
           "voltage": "3.3V",
           "type": "signal",
           "verified": true,
-          "label": "Pin #9 [45, -13, -3]",
+          "label": "Power -",
           "pinId": "pin_9",
           "localOffset": [
-            45,
-            -12.6,
-            -2.7
+            45.3,
+            -9.2,
+            3
           ],
           "fullName": "18-1.pin_9"
+        },
+        {
+          "pinId": "pin_10",
+          "connectorId": "port",
+          "fullName": "18-1.pin_10",
+          "label": "Power +",
+          "type": "signal",
+          "voltage": "3.3V",
+          "localOffset": [
+            45.4,
+            -4.9,
+            3.1
+          ],
+          "verified": true
         }
       ],
       "attachedToDrone": true,
@@ -2129,35 +2143,7 @@
         -0.4,
         89.7
       ],
-      "modelVersion": 1790794309964
-    },
-    {
-      "instanceId": "18-2",
-      "componentId": "18",
-      "instanceIndex": 2,
-      "name": "Hobbywing UBEC",
-      "customLabel": "Avionika va datchiklar UBEC 12A",
-      "isAirframe": false,
-      "placed": false,
-      "locked": false,
-      "visible": true,
-      "position": [
-        40,
-        -15,
-        60
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weightG": 28,
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "19-1",
@@ -2315,7 +2301,7 @@
           "pinId": "pin_2",
           "connectorId": "port",
           "verified": true,
-          "label": "Pin #2 [-104, -1, 1]",
+          "label": "POWER IN",
           "voltage": "3.3V",
           "type": "signal",
           "fullName": "20-1.pin_2",
@@ -2326,7 +2312,7 @@
           ]
         }
       ],
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "21-1",
@@ -2419,35 +2405,7 @@
         0,
         0
       ],
-      "modelVersion": 1790794309964
-    },
-    {
-      "instanceId": "23-1",
-      "componentId": "23",
-      "instanceIndex": 1,
-      "name": "LS1005G Switch",
-      "customLabel": "LS1005G Switch #1",
-      "isAirframe": false,
-      "placed": false,
-      "locked": false,
-      "visible": true,
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weightG": 450,
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "24-1",
@@ -2544,7 +2502,7 @@
         -90,
         0
       ],
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "25-1",
@@ -2630,63 +2588,7 @@
           "verified": true
         }
       ],
-      "modelVersion": 1790794309964
-    },
-    {
-      "instanceId": "26-1",
-      "componentId": "26",
-      "instanceIndex": 1,
-      "name": "UBEC 12V Aux",
-      "customLabel": "UBEC 12V Aux #1",
-      "isAirframe": false,
-      "placed": false,
-      "locked": false,
-      "visible": true,
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weightG": 80,
-      "modelVersion": 1790794309964
-    },
-    {
-      "instanceId": "27-1",
-      "componentId": "27",
-      "instanceIndex": 1,
-      "name": "UBEC 12V Servo",
-      "customLabel": "UBEC 12V Servo #1",
-      "isAirframe": false,
-      "placed": false,
-      "locked": false,
-      "visible": true,
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weightG": 95,
-      "modelVersion": 1790794309964
+      "modelVersion": 1790796247695
     },
     {
       "instanceId": "21-2",
@@ -2726,48 +2628,6 @@
     }
   ],
   "cables": [
-    {
-      "cableType": "Power",
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ],
-      "strandCount": 2,
-      "sourceInstanceId": "20-1",
-      "name": "SIYI 4-18S BEC HM30 #1 [pin_1] → MK32 HM30 Air Unit #1 [pin_1]",
-      "wireGauge": "16 AWG",
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "strandPitchMm": 2,
-      "flowDirection": "forward",
-      "routePoints": [
-        {
-          "y": 22.1,
-          "id": "pt_1788521985484_slxj",
-          "z": 712.1,
-          "x": 9.5,
-          "type": "waypoint"
-        }
-      ],
-      "targetPinName": "04-1.pin_1",
-      "calculatedLengthMm": 270,
-      "color": "#ef4444",
-      "slackMm": 0,
-      "sourcePinName": "20-1.pin_2",
-      "targetInstanceId": "04-1",
-      "thicknessMm": 3,
-      "endStickers": {
-        "enabled": false
-      },
-      "curveTension": 0.5,
-      "id": "cable_1788521917444_du2o7t",
-      "isRibbon": true,
-      "multiSourcePinNames": [
-        "20-1.pin_2"
-      ]
-    },
     {
       "thicknessMm": 3,
       "id": "cable_1788524645192_gdz2js",
@@ -3203,6 +3063,13 @@
       "sourceInstanceId": "07-1",
       "routePoints": [
         {
+          "id": "wp_1790794514752_r0z2",
+          "x": -134.1,
+          "y": 170.5,
+          "z": 152.3,
+          "type": "waypoint"
+        },
+        {
           "y": 196.4,
           "z": 217.1,
           "type": "waypoint",
@@ -3242,7 +3109,7 @@
       "targetInstanceId": "02-1",
       "sourcePinName": "07-1.pin_1",
       "isRibbon": true,
-      "calculatedLengthMm": 794,
+      "calculatedLengthMm": 836,
       "cableType": "Power"
     },
     {
@@ -3283,52 +3150,6 @@
       "calculatedLengthMm": 37,
       "id": "cable_1788543416385_gb7bfl",
       "sourceInstanceId": "09-1"
-    },
-    {
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ],
-      "strandCount": 2,
-      "isRibbon": true,
-      "routePoints": [
-        {
-          "type": "waypoint",
-          "z": 99.4,
-          "y": 165.2,
-          "x": -134.8,
-          "id": "pt_1788546136423_a6hw"
-        },
-        {
-          "type": "waypoint",
-          "x": -48.5,
-          "id": "pt_1788546159153_jj2u",
-          "z": 99.4,
-          "y": 155.9
-        }
-      ],
-      "id": "cable_1788546115710_9cua77",
-      "slackMm": 0,
-      "strandPitchMm": 2,
-      "flowDirection": "forward",
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "sourceInstanceId": "07-1",
-      "targetPinName": "18-1.pin_9",
-      "color": "#ef4444",
-      "calculatedLengthMm": 139,
-      "sourcePinName": "07-1.pin_2",
-      "wireGauge": "16 AWG",
-      "name": "Holybro PM02 V3 12S #1 [pin_2] → Servo quvvatlash UBEC 12A [pin_9]",
-      "cableType": "Power",
-      "curveTension": 0.5,
-      "endStickers": {
-        "enabled": false
-      },
-      "targetInstanceId": "18-1",
-      "thicknessMm": 3
     },
     {
       "endStickers": {
@@ -3882,51 +3703,6 @@
           "id": "pt_1788617594802_jupc"
         }
       ]
-    },
-    {
-      "breakoutType": "1-to-3",
-      "isTubing": false,
-      "strandLabels": [
-        "V+ (Musbat quvvat)",
-        "GND (Manfiy / Massa)"
-      ],
-      "cableType": "Power",
-      "wireGauge": "16 AWG",
-      "targetPinName": "09-1.pin_1",
-      "endStickers": {
-        "enabled": false
-      },
-      "flowDirection": "reverse",
-      "name": "SIYI 4-18S BEC HM30 #1 [pin_2] → 4S avionics battery #1 [pin_1]",
-      "thicknessMm": 3,
-      "strandPitchMm": 2,
-      "isTransparent": false,
-      "targetInstanceId": "09-1",
-      "slackMm": 0,
-      "transparencyOpacity": 0.45,
-      "isRibbon": true,
-      "calculatedLengthMm": 284,
-      "curveTension": 0.5,
-      "sourceInstanceId": "20-1",
-      "id": "cable_1788617931685_guu8m4",
-      "strandColors": [
-        "#ef4444",
-        "#1e293b"
-      ],
-      "color": "#ef4444",
-      "isBreakout": false,
-      "strandCount": 2,
-      "sourcePinName": "20-1.pin_2",
-      "routePoints": [
-        {
-          "x": -160.9,
-          "id": "pt_1788617950474_1y2f",
-          "type": "waypoint",
-          "z": 301.8,
-          "y": 128.2
-        }
-      ],
-      "tubeInnerColor": "#38bdf8"
     },
     {
       "strandPitchMm": 2,
@@ -5355,20 +5131,296 @@
         }
       ],
       "calculatedLengthMm": 778
+    },
+    {
+      "name": "Jetson carrier assembly #1 [1 Port] ➔ RCNUN DC-DC converter 12V 10A [2-Pin Breakout]",
+      "sourceInstanceId": "19-1",
+      "sourcePinName": "19-1.pin_2",
+      "targetInstanceId": "06-1",
+      "targetPinName": "06-1.pin_4",
+      "isBreakout": true,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "multiTargetPinNames": [
+        "06-1.pin_4",
+        "06-1.pin_3"
+      ],
+      "flowDirection": "reverse",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "VCC",
+        "GND"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790794770772_mbrpqd",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [],
+      "calculatedLengthMm": 109
+    },
+    {
+      "name": "Servo quvvatlash UBEC 12A [2-Pin Breakout] ➔ Holybro PM02 V3 12S #1 [1 Port]",
+      "sourceInstanceId": "18-1",
+      "sourcePinName": "18-1.pin_9",
+      "targetInstanceId": "07-1",
+      "targetPinName": "07-1.pin_2",
+      "isBreakout": true,
+      "breakoutType": "N-to-1",
+      "breakoutMode": "N-to-1",
+      "multiSourcePinNames": [
+        "18-1.pin_9",
+        "18-1.pin_10"
+      ],
+      "flowDirection": "reverse",
+      "color": "#0d0d0d",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#0d0d0d",
+        "#ff0000"
+      ],
+      "strandLabels": [
+        "GND",
+        "VCC (+5V/+6V)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790795690185_ldpkj8",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [
+        {
+          "id": "wp_1790795710345_luux",
+          "x": -32.1,
+          "y": 162.2,
+          "z": 102.6,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790795699279_oo5q",
+          "x": -146.6,
+          "y": 163.2,
+          "z": 84.2,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 180
+    },
+    {
+      "name": "Holybro PM02 V3 12S #1 [pin_2] → SIYI 4-18S BEC HM30 #1 [pin_2]",
+      "sourceInstanceId": "07-1",
+      "sourcePinName": "07-1.pin_2",
+      "targetInstanceId": "20-1",
+      "targetPinName": "20-1.pin_2",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "forward",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2.9,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790795892607_47ji9u",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [
+        {
+          "id": "wp_1790795904412_451o",
+          "x": -114.9,
+          "y": 160.6,
+          "z": 100.5,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 452
+    },
+    {
+      "name": "MK32 HM30 Air Unit #1 [pin_1] → Holybro PM02 V3 12S #1 [pin_2]",
+      "sourceInstanceId": "04-1",
+      "sourcePinName": "04-1.pin_1",
+      "targetInstanceId": "07-1",
+      "targetPinName": "07-1.pin_2",
+      "isBreakout": false,
+      "breakoutType": "1-to-N",
+      "breakoutMode": "1-to-N",
+      "flowDirection": "reverse",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 3,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "V+ (Musbat quvvat)",
+        "GND (Manfiy / Massa)"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790795989982_as9pbw",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [
+        {
+          "id": "wp_1790796013191_3uf4",
+          "x": 16.2,
+          "y": 27.2,
+          "z": 712.2,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790796017889_6yda",
+          "x": -37.8,
+          "y": 32.5,
+          "z": 683.6,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790796032952_78zi",
+          "x": -119.1,
+          "y": 150.4,
+          "z": 127.2,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 717
+    },
+    {
+      "name": "RCNUN DC-DC converter 12V 10A [2-Pin Breakout] ➔ Holybro PM02 V3 12S #1 [1 Port]",
+      "sourceInstanceId": "06-1",
+      "sourcePinName": "06-1.pin_1",
+      "targetInstanceId": "07-1",
+      "targetPinName": "07-1.pin_2",
+      "isBreakout": true,
+      "breakoutType": "N-to-1",
+      "breakoutMode": "N-to-1",
+      "multiSourcePinNames": [
+        "06-1.pin_1",
+        "06-1.pin_2"
+      ],
+      "flowDirection": "reverse",
+      "color": "#ef4444",
+      "cableType": "Power",
+      "wireGauge": "16 AWG",
+      "isRibbon": true,
+      "strandCount": 2,
+      "strandPitchMm": 2,
+      "strandColors": [
+        "#ef4444",
+        "#1e293b"
+      ],
+      "strandLabels": [
+        "VCC",
+        "GND"
+      ],
+      "isTransparent": false,
+      "transparencyOpacity": 0.45,
+      "isTubing": false,
+      "tubeInnerColor": "#38bdf8",
+      "endStickers": {
+        "enabled": false
+      },
+      "id": "cable_1790796196319_3ndr7s",
+      "slackMm": 0,
+      "curveTension": 0.5,
+      "thicknessMm": 3,
+      "routePoints": [
+        {
+          "id": "wp_1790796225990_ld0c",
+          "x": -69.8,
+          "y": 97.3,
+          "z": 779.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790796249862_tj16",
+          "x": -54.4,
+          "y": 102.9,
+          "z": 712.4,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790796210830_b2dz",
+          "x": -104.1,
+          "y": 148.8,
+          "z": 251.5,
+          "type": "waypoint"
+        },
+        {
+          "id": "wp_1790796214739_dazj",
+          "x": -118.3,
+          "y": 160.1,
+          "z": 149.3,
+          "type": "waypoint"
+        }
+      ],
+      "calculatedLengthMm": 716
     }
   ],
   "droneFrame": {
     "color": "#475569",
-    "opacity": 0.2,
+    "opacity": 0.05,
     "wireframe": false,
     "visible": true
   },
   "droneColor": "#475569",
-  "droneOpacity": 0.2,
+  "droneOpacity": 0.05,
   "droneWireframe": false,
   "droneVisible": true,
   "sceneTheme": "light",
-  "cameraViewMode": "left",
+  "cameraViewMode": "perspective",
   "customModels": {
     "16": {
       "componentId": "16",
