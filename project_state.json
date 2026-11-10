@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-11-10T17:38:51.003Z",
-  "timestamp": 1794332331003,
+  "updatedAt": "2026-11-10T17:45:39.589Z",
+  "timestamp": 1794332739589,
   "instances": [
     {
       "instanceId": "01-1",
@@ -708,8 +708,8 @@
       "visible": true,
       "position": [
         0,
-        168.9,
-        825.8
+        169.2,
+        911.4
       ],
       "rotation": [
         0,
@@ -726,9 +726,9 @@
       "customPins": [
         {
           "localOffset": [
-            -70.7,
-            20.4,
-            31.7
+            -91.4,
+            0.8,
+            22
           ],
           "pinId": "pin_1",
           "label": "GND",
@@ -747,9 +747,9 @@
           "verified": true,
           "fullName": "08-1.pin_2",
           "localOffset": [
-            -70.6,
-            11.8,
-            17.3
+            -91.4,
+            2.2,
+            10.8
           ]
         }
       ],
@@ -766,17 +766,17 @@
       "locked": false,
       "visible": true,
       "position": [
-        -46.3,
+        -0.3,
         212.7,
-        855.2
+        926.1
       ],
       "rotation": [
         0,
-        90,
+        -87.9,
         0
       ],
       "scale": [
-        1.9,
+        2.32,
         1.14,
         2.19
       ],
@@ -789,15 +789,15 @@
           "verified": true,
           "pinId": "pin_1",
           "localOffset": [
-            -18.2,
-            0.6,
-            -49
+            -41.5,
+            -0.2,
+            -15.3
           ],
           "fullName": "09-1.pin_1",
           "connectorId": "port"
         }
       ],
-      "modelVersion": 1794330125202
+      "modelVersion": 1794332355139
     },
     {
       "instanceId": "10-1",
@@ -3221,7 +3221,7 @@
         "#1e293b"
       ],
       "strandCount": 2,
-      "calculatedLengthMm": 654,
+      "calculatedLengthMm": 628,
       "id": "cable_1788543416385_gb7bfl",
       "sourceInstanceId": "09-1"
     },
@@ -4021,7 +4021,7 @@
       "curveTension": 0.5,
       "thicknessMm": 3,
       "routePoints": [],
-      "calculatedLengthMm": 829
+      "calculatedLengthMm": 762
     },
     {
       "name": "Chap motor regulyatori (ESC 1) [pin_5] → Emergency Stop #1 [pin_1]",
@@ -4137,7 +4137,7 @@
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 1009
+      "calculatedLengthMm": 1064
     },
     {
       "name": "O‘ng motor regulyatori (ESC 2) [pin_5] → Emergency Stop #1 [pin_4]",
@@ -4231,7 +4231,7 @@
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 889
+      "calculatedLengthMm": 944
     },
     {
       "name": "TATTU 22000 mAh battery #1 [pin_1] → O‘ng motor regulyatori (ESC 2) [pin_6]",
@@ -4282,7 +4282,7 @@
           "type": "waypoint"
         }
       ],
-      "calculatedLengthMm": 826
+      "calculatedLengthMm": 883
     }
   ],
   "droneFrame": {
@@ -4644,6 +4644,16 @@
       "fileName": "6S12000mAh22_2V12CLipo.step",
       "fileUrl": "/models/custom/6S12000mAh22_2V12CLipo.step",
       "updatedAt": 1794332264481
+    },
+    "09": {
+      "componentId": "09",
+      "assetKey": "custom_09",
+      "sourceType": "file",
+      "format": "step",
+      "scaleMultiplier": 1,
+      "fileName": "lipo_battery_7_4v_2200mah.step",
+      "fileUrl": "/models/custom/lipo_battery_7_4v_2200mah.step",
+      "updatedAt": 1794332351685
     }
   },
   "customManifest": [
