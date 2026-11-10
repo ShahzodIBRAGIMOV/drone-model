@@ -1,8 +1,8 @@
 {
   "version": "3.5",
   "name": "3.5M Twin-Motor UAV Avionics",
-  "updatedAt": "2026-11-10T17:45:39.589Z",
-  "timestamp": 1794332739589,
+  "updatedAt": "2026-11-10T18:03:38.514Z",
+  "timestamp": 1794333818515,
   "instances": [
     {
       "instanceId": "01-1",
@@ -31,8 +31,7 @@
       ],
       "weightG": 0,
       "customColor": "#475569",
-      "customPins": [],
-      "modelVersion": 1794330125202
+      "customPins": []
     },
     {
       "instanceId": "02-1",
@@ -325,8 +324,7 @@
         180,
         0,
         180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "03-1",
@@ -381,8 +379,7 @@
         180,
         0,
         180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "04-1",
@@ -454,8 +451,7 @@
           ],
           "verified": true
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "05-1",
@@ -524,8 +520,7 @@
         -78.3,
         0.1,
         -93.9
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "06-1",
@@ -621,8 +616,7 @@
         88.1,
         87.8,
         91
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "07-1",
@@ -693,8 +687,7 @@
           "verified": true,
           "pinId": "pin_3"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "08-1",
@@ -752,8 +745,7 @@
             10.8
           ]
         }
-      ],
-      "modelVersion": 1794332269075
+      ]
     },
     {
       "instanceId": "09-1",
@@ -796,8 +788,7 @@
           "fullName": "09-1.pin_1",
           "connectorId": "port"
         }
-      ],
-      "modelVersion": 1794332355139
+      ]
     },
     {
       "instanceId": "10-1",
@@ -880,8 +871,7 @@
         0,
         0,
         180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "10-2",
@@ -953,8 +943,7 @@
           "pinId": "pin_3",
           "label": "Pin #3 [-2, -20, -3]"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "11-1",
@@ -1067,8 +1056,7 @@
           ],
           "verified": true
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "11-2",
@@ -1192,8 +1180,7 @@
         -180,
         87.6,
         -180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-1",
@@ -1247,8 +1234,7 @@
         -180,
         -90,
         0
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-2",
@@ -1302,8 +1288,7 @@
         -180,
         -90,
         0
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-3",
@@ -1357,8 +1342,7 @@
         0.3,
         90,
         0
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-4",
@@ -1412,8 +1396,7 @@
         -180,
         87,
         -180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-5",
@@ -1456,8 +1439,7 @@
           "verified": true,
           "fullName": "12-5.pin_1"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-6",
@@ -1511,8 +1493,7 @@
         -90,
         1,
         92
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-7",
@@ -1566,8 +1547,7 @@
         0.3,
         89,
         1.6
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "12-8",
@@ -1621,8 +1601,7 @@
         0,
         -87,
         180
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "13-1",
@@ -1679,8 +1658,7 @@
             41.9
           ]
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "14-1",
@@ -1751,8 +1729,7 @@
           "label": "Pin #3 [0, -2, 10]",
           "type": "signal"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "15-1",
@@ -1796,8 +1773,7 @@
           "fullName": "15-1.pin_1",
           "type": "signal"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "15-2",
@@ -1841,8 +1817,7 @@
           "verified": true,
           "connectorId": "port"
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "16-1",
@@ -1914,8 +1889,7 @@
           ],
           "verified": true
         }
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "17-1",
@@ -1943,8 +1917,7 @@
         1
       ],
       "weightG": 55,
-      "customColor": "#0f172a",
-      "modelVersion": 1794330125202
+      "customColor": "#0f172a"
     },
     {
       "instanceId": "17-2",
@@ -1972,8 +1945,7 @@
         1
       ],
       "weightG": 55,
-      "customColor": "#0f172a",
-      "modelVersion": 1794330125202
+      "customColor": "#0f172a"
     },
     {
       "instanceId": "18-1",
@@ -2154,8 +2126,7 @@
         -90,
         -0.4,
         89.7
-      ],
-      "modelVersion": 1794330142890
+      ]
     },
     {
       "instanceId": "18-2",
@@ -2182,8 +2153,7 @@
         1,
         1
       ],
-      "weightG": 28,
-      "modelVersion": 1794330142890
+      "weightG": 28
     },
     {
       "instanceId": "19-1",
@@ -2294,8 +2264,7 @@
         0,
         0,
         0
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "20-1",
@@ -2352,8 +2321,7 @@
             0.6
           ]
         }
-      ],
-      "modelVersion": 1794330142890
+      ]
     },
     {
       "instanceId": "21-1",
@@ -2391,8 +2359,7 @@
         -180,
         0,
         -92
-      ],
-      "modelVersion": 1794330125202
+      ]
     },
     {
       "instanceId": "22-1",
@@ -2446,8 +2413,7 @@
         -90.1,
         0,
         0
-      ],
-      "modelVersion": 1794330142890
+      ]
     },
     {
       "instanceId": "23-1",
@@ -2474,8 +2440,7 @@
         1,
         1
       ],
-      "weightG": 450,
-      "modelVersion": 1794330142890
+      "weightG": 450
     },
     {
       "instanceId": "24-1",
@@ -2571,8 +2536,7 @@
         0,
         -90,
         0
-      ],
-      "modelVersion": 1794330142890
+      ]
     },
     {
       "instanceId": "25-1",
@@ -2657,8 +2621,7 @@
           "fullName": "25-1.pin_4",
           "verified": true
         }
-      ],
-      "modelVersion": 1794330142890
+      ]
     },
     {
       "instanceId": "26-1",
@@ -2685,8 +2648,7 @@
         1,
         1
       ],
-      "weightG": 80,
-      "modelVersion": 1794330142890
+      "weightG": 80
     },
     {
       "instanceId": "27-1",
@@ -2713,8 +2675,7 @@
         1,
         1
       ],
-      "weightG": 95,
-      "modelVersion": 1794330142890
+      "weightG": 95
     },
     {
       "instanceId": "21-2",
@@ -2750,8 +2711,7 @@
         0,
         -91.7
       ],
-      "weightG": 18,
-      "modelVersion": 1794330125202
+      "weightG": 18
     }
   ],
   "cables": [
@@ -4302,12 +4262,11 @@
       "componentId": "16",
       "assetKey": "custom_16",
       "sourceType": "file",
-      "format": "glb",
+      "format": "step",
       "scaleMultiplier": 1,
-      "fileName": "battery_switch_200A__1_.glb",
-      "fileUrl": "/models/custom/battery_switch_200A__1_.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/battery_switch_200A__1_.glb?v=1790713169894",
-      "updatedAt": 1790713169894
+      "fileName": "Emergency_Stop_Button_-_Assy.step",
+      "fileUrl": "/models/custom/Emergency_Stop_Button_-_Assy.step",
+      "updatedAt": 1790579844214
     },
     "18": {
       "componentId": "18",
@@ -4317,8 +4276,7 @@
       "scaleMultiplier": 1,
       "fileName": "Hobbywing_UBEC_25A_50A_short_cables__1_.glb",
       "fileUrl": "/models/custom/Hobbywing_UBEC_25A_50A_short_cables__1_.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/Hobbywing_UBEC_25A_50A_short_cables__1_.glb?v=1790651431433",
-      "updatedAt": 1790651431433
+      "updatedAt": 1790592104146
     },
     "20": {
       "componentId": "20",
@@ -4328,7 +4286,6 @@
       "scaleMultiplier": 1,
       "fileName": "20_siyi-bec.glb",
       "fileUrl": "/models/custom/20_siyi-bec.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/20_siyi-bec.glb?v=1790592764102",
       "updatedAt": 1790592764102
     },
     "22": {
@@ -4339,7 +4296,6 @@
       "scaleMultiplier": 1,
       "fileName": "RadioMaster_DBR4__1_.glb",
       "fileUrl": "/models/custom/RadioMaster_DBR4__1_.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/RadioMaster_DBR4__1_.glb?v=1790592335373",
       "updatedAt": 1790592335373
     },
     "23": {
@@ -4350,7 +4306,7 @@
       "scaleMultiplier": 1,
       "fileName": "Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
       "fileUrl": "/models/custom/Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
-      "updatedAt": 1790714374868
+      "updatedAt": 1790653242815
     },
     "24": {
       "componentId": "24",
@@ -4358,10 +4314,9 @@
       "sourceType": "file",
       "format": "glb",
       "scaleMultiplier": 1,
-      "fileName": "Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
-      "fileUrl": "/models/custom/Ethernet_Switch_5Port_RJ45_Colored__1_.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/Ethernet_Switch_5Port_RJ45_Colored__1_.glb?v=1790714261645",
-      "updatedAt": 1790714261645
+      "fileName": "GigaBlox_RevC_Colored.glb",
+      "fileUrl": "/models/custom/GigaBlox_RevC_Colored.glb",
+      "updatedAt": 1788689000000
     },
     "25": {
       "componentId": "25",
@@ -4369,10 +4324,9 @@
       "sourceType": "file",
       "format": "glb",
       "scaleMultiplier": 1,
-      "fileName": "ubec_12v.glb",
-      "fileUrl": "/models/custom/ubec_12v.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/ubec_12v.glb?v=1790710578423",
-      "updatedAt": 1790710578423
+      "fileName": "UBEC_12_PRO_12V_8A_colored.glb",
+      "fileUrl": "/models/custom/UBEC_12_PRO_12V_8A_colored.glb",
+      "updatedAt": 1788689000000
     },
     "26": {
       "componentId": "26",
@@ -4432,7 +4386,7 @@
       "scaleMultiplier": 1,
       "fileName": "18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790592104146_18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790592104146.glb",
       "fileUrl": "/models/custom/18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790592104146_18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790592104146.glb",
-      "updatedAt": 1794330127417
+      "updatedAt": 1794332950364
     },
     "22_RadioMaster_DBR4__1_.glb_1790592335373": {
       "componentId": "22_RadioMaster_DBR4__1_.glb_1790592335373",
@@ -4442,7 +4396,7 @@
       "scaleMultiplier": 1,
       "fileName": "22_RadioMaster_DBR4__1__glb_1790592335373_22_RadioMaster_DBR4__1__glb_1790592335373.glb",
       "fileUrl": "/models/custom/22_RadioMaster_DBR4__1__glb_1790592335373_22_RadioMaster_DBR4__1__glb_1790592335373.glb",
-      "updatedAt": 1794330131430
+      "updatedAt": 1794332954229
     },
     "23_Ethernet_Switch_5Port_RJ45_Colored__1_.glb_1790653242815": {
       "componentId": "23_Ethernet_Switch_5Port_RJ45_Colored__1_.glb_1790653242815",
@@ -4452,7 +4406,7 @@
       "scaleMultiplier": 1,
       "fileName": "23_Ethernet_Switch_5Port_RJ45_Colored__1__glb_1790653242815_23_Ethernet_Switch_5Port_RJ45_Colored__1__glb_1790653242815.glb",
       "fileUrl": "/models/custom/23_Ethernet_Switch_5Port_RJ45_Colored__1__glb_1790653242815_23_Ethernet_Switch_5Port_RJ45_Colored__1__glb_1790653242815.glb",
-      "updatedAt": 1794330133265
+      "updatedAt": 1794332956515
     },
     "24_GigaBlox_RevC_Colored.glb_1788689000000": {
       "componentId": "24_GigaBlox_RevC_Colored.glb_1788689000000",
@@ -4462,7 +4416,7 @@
       "scaleMultiplier": 1,
       "fileName": "24_GigaBlox_RevC_Colored_glb_1788689000000_24_GigaBlox_RevC_Colored_glb_1788689000000.glb",
       "fileUrl": "/models/custom/24_GigaBlox_RevC_Colored_glb_1788689000000_24_GigaBlox_RevC_Colored_glb_1788689000000.glb",
-      "updatedAt": 1794330135323
+      "updatedAt": 1794332958731
     },
     "25_ubec_12v.glb_1790705050436": {
       "componentId": "25_ubec_12v.glb_1790705050436",
@@ -4482,7 +4436,7 @@
       "scaleMultiplier": 1,
       "fileName": "26_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_26_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
       "fileUrl": "/models/custom/26_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_26_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
-      "updatedAt": 1794330136092
+      "updatedAt": 1794332961064
     },
     "27_UBEC_12_PRO_12V_8A_colored.glb_1788689000000": {
       "componentId": "27_UBEC_12_PRO_12V_8A_colored.glb_1788689000000",
@@ -4492,7 +4446,7 @@
       "scaleMultiplier": 1,
       "fileName": "27_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_27_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
       "fileUrl": "/models/custom/27_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_27_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
-      "updatedAt": 1794330137580
+      "updatedAt": 1794332961595
     },
     "18_Hobbywing_UBEC_25A_50A_MAX_colored.glb_1788689000000": {
       "componentId": "18_Hobbywing_UBEC_25A_50A_MAX_colored.glb_1788689000000",
@@ -4512,7 +4466,7 @@
       "scaleMultiplier": 1,
       "fileName": "18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790651431433_18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790651431433.glb",
       "fileUrl": "/models/custom/18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790651431433_18_Hobbywing_UBEC_25A_50A_short_cables__1__glb_1790651431433.glb",
-      "updatedAt": 1794330137838
+      "updatedAt": 1794332963223
     },
     "20_20_siyi-bec.glb_1790592764102": {
       "componentId": "20_20_siyi-bec.glb_1790592764102",
@@ -4522,7 +4476,7 @@
       "scaleMultiplier": 1,
       "fileName": "20_20_siyi-bec_glb_1790592764102_20_20_siyi-bec_glb_1790592764102.glb",
       "fileUrl": "/models/custom/20_20_siyi-bec_glb_1790592764102_20_20_siyi-bec_glb_1790592764102.glb",
-      "updatedAt": 1794330137952
+      "updatedAt": 1794332963434
     },
     "23_Ethernet_Switch_5Port_RJ45_Colored__1_.glb_1788689000000": {
       "componentId": "23_Ethernet_Switch_5Port_RJ45_Colored__1_.glb_1788689000000",
@@ -4612,7 +4566,7 @@
       "scaleMultiplier": 1,
       "fileName": "25_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_25_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
       "fileUrl": "/models/custom/25_UBEC_12_PRO_12V_8A_colored_glb_1788689000000_25_UBEC_12_PRO_12V_8A_colored_glb_1788689000000.glb",
-      "updatedAt": 1794330139003
+      "updatedAt": 1794332978273
     },
     "25_ubec_12v.glb_1790705052145": {
       "componentId": "25_ubec_12v.glb_1790705052145",
@@ -4623,37 +4577,6 @@
       "fileName": "25_ubec_12v.glb_1790705052145_25_ubec_12v.glb_1790705052145.glb",
       "cadZUp": false,
       "updatedAt": 1790708355549
-    },
-    "06": {
-      "componentId": "06",
-      "assetKey": "custom_06",
-      "sourceType": "file",
-      "format": "glb",
-      "scaleMultiplier": 1,
-      "fileName": "DC-DC_Converter_12V_10A.glb",
-      "fileUrl": "/models/custom/DC-DC_Converter_12V_10A.glb",
-      "sourceUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/DC-DC_Converter_12V_10A.glb?v=1790793075637",
-      "updatedAt": 1790793075637
-    },
-    "08": {
-      "componentId": "08",
-      "assetKey": "custom_08",
-      "sourceType": "file",
-      "format": "step",
-      "scaleMultiplier": 1,
-      "fileName": "6S12000mAh22_2V12CLipo.step",
-      "fileUrl": "/models/custom/6S12000mAh22_2V12CLipo.step",
-      "updatedAt": 1794332264481
-    },
-    "09": {
-      "componentId": "09",
-      "assetKey": "custom_09",
-      "sourceType": "file",
-      "format": "step",
-      "scaleMultiplier": 1,
-      "fileName": "lipo_battery_7_4v_2200mah.step",
-      "fileUrl": "/models/custom/lipo_battery_7_4v_2200mah.step",
-      "updatedAt": 1794332351685
     }
   },
   "customManifest": [
