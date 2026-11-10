@@ -68,5 +68,15 @@
     "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/DC-DC_Converter_12V_10A.glb",
     "uploadedAt": "2026-09-30T18:31:15.637Z",
     "updatedAt": 1790793075637
+  },
+  {
+    "componentId": "08",
+    "fileName": "6S12000mAh22.2V12CLipo.step",
+    "format": "step",
+    "scaleMultiplier": 1,
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/6S12000mAh22.2V12CLipo.step",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/6S12000mAh22.2V12CLipo.step",
+    "uploadedAt": "2026-11-10T17:37:47.863Z",
+    "updatedAt": 1794332267863
   }
 ]
