@@ -78,5 +78,15 @@
     "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/6S12000mAh22.2V12CLipo.step",
     "uploadedAt": "2026-11-10T17:37:47.863Z",
     "updatedAt": 1794332267863
+  },
+  {
+    "componentId": "09",
+    "fileName": "lipo_battery_7.4v_2200mah.STEP",
+    "format": "step",
+    "scaleMultiplier": 1,
+    "rawUrl": "https://raw.githubusercontent.com/ShahzodIBRAGIMOV/drone-model/main/models/lipo_battery_7.4v_2200mah.STEP",
+    "cdnUrl": "https://cdn.jsdelivr.net/gh/ShahzodIBRAGIMOV/drone-model@main/models/lipo_battery_7.4v_2200mah.STEP",
+    "uploadedAt": "2026-11-10T17:39:14.206Z",
+    "updatedAt": 1794332354206
   }
 ]
